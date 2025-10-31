@@ -1,0 +1,81 @@
+{% extends 'shop/base.html' %}
+{% load static %}
+
+{% block title %}Корзина{% endblock %}
+
+{% block content %}
+    {% if baskets %}
+        <div class="col-lg-5">
+            <h4 class="mt-3 mb-3 d-flex justify-content-between align-items-center mb-3">
+                Корзина <span class="badge badge-secondary badge-pill">3</span>
+            </h4>
+            {% for basket in baskets %}
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <a href="{% url 'shop:detail' basket.product.id %}">
+                            <img class="product-image"
+                                     src="{{ basket.product.image.url }}"
+                                     alt="" id="product-image-id">
+                            <h5 class="card-title">{{ basket.product.name }}</h5>
+                            <p class="card-text">{{ basket.product.description|slice:":50" }}..</p>
+                        </a>
+                    </div>
+
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-light">
+                            <div class="row text-center">
+                                <div class="basket-row">
+
+                                    <div>
+                                        <a href="{% url 'shop:basket_product_minus' basket.id %}">
+                                            <i class="fa-solid fa-minus"></i>
+                                        </a>
+                                    </div>
+                                    <div>
+                                                {{ basket.quantity }}
+                                    </div>
+                                    <div>
+                                        <a href="{% url 'shop:basket_product_plus' basket.id %}">
+                                                <i class="fa-solid fa-plus"></i>
+                                        </a>
+                                    </div>
+
+                                    <div>
+                                       Сумма: {{ basket.sum }} руб.
+                                    </div>
+
+                                    <div>
+                                        <a class="btn btn-success" href="{% url 'shop:buy_now_page' basket.product.id %}">Купить сейчас</a>
+                                    </div>
+
+                                    <div>
+                                        <a href="{% url 'shop:basket_remove' basket.id %}">
+                                            <i class="fas fa-trash"></i>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            {% endfor %}
+
+            <div class="card mb-3">
+                <div class="card-footer">
+                    <p class="float-left">Итого</p>
+                    <h4 class="float-right">{{ total_sum }} руб.</h4>
+                </div>
+            </div>
+
+            <a class="btn btn-success btn-lg float-right" href="{% url 'shop:buy_all_page' %}">
+                Оформить заказ
+            </a>
+        </div>
+    {% else %}
+        <h4 class="mt-3 mb-3 d-flex justify-content-between align-items-center mb-3">
+            В корзине ничего нет <span class="badge badge-secondary badge-pill">3</span>
+        </h4>
+    {% endif %}
+
+{% endblock %}

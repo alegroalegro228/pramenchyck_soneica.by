@@ -1,0 +1,94 @@
+{% extends 'shop/base.html' %}
+{% load static %}
+
+{% block title %}Профиль{% endblock %}
+
+{% block content %}
+    <h1>Профиль</h1>
+
+    <div class="col-lg-12 text-center">
+        <img width="100" height="100" src="{% if user.image %} {{ user.image.url }} {% else %} {% static 'img/default_avatar.jpg' %} {% endif %}" class="img-thumbnail">
+    </div>
+
+    <form method="post" action="{% url 'user:profile' %}" enctype="multipart/form-data">
+        {% csrf_token %}
+
+        <div>
+            {{ form.image }}
+        </div><br>
+
+        <div>
+            <label for="{{ form.first_name.id_for_label }}">Имя</label>
+            {{ form.first_name }}
+        </div><br>
+
+        <div>
+            <label for="{{ form.last_name.id_for_label }}">Фамилия</label>
+            {{ form.last_name }}
+        </div><br>
+
+        <div>
+            <label for="{{ form.username.id_for_label }}">Никнейм</label>
+            {{ form.username }}
+        </div><br>
+
+        <div>
+            <label for="{{ form.email.id_for_label }}">Адрес электронной почты</label>
+            {{ form.email }}
+        </div><br>
+
+        <div>
+            <label for="{{ form.telephone.id_for_label }}">Номер телефона</label>
+            {{ form.telephone }}
+        </div><br>
+
+        <div>
+            <label for="{{ form.region.id_for_label }}">Область</label>
+            {{ form.region }}
+        </div><br>
+
+        <div>
+            <label for="{{ form.district.id_for_label }}">Район</label>
+            {{ form.district }}
+        </div><br>
+
+        <div>
+            <label for="{{ form.city.id_for_label }}">Город</label>
+            {{ form.city }}
+        </div><br>
+
+        <div>
+            <label for="{{ form.street.id_for_label }}">Улица</label>
+            {{ form.street }}
+        </div><br>
+
+        <div>
+            <label for="{{ form.house_number.id_for_label }}">Номер дома</label>
+            {{ form.house_number }}
+        </div><br>
+
+        <div>
+            <label for="{{ form.entrance_number.id_for_label }}">Подъезд</label>
+            {{ form.entrance_number }}
+        </div><br>
+
+        <div>
+            <label for="{{ form.flat_number.id_for_label }}">Квартира</label>
+            {{ form.flat_number }}
+        </div><br>
+
+        <div>
+            <label for="{{ form.post_index.id_for_label }}">Почтовый индекс</label>
+            {{ form.post_index }}
+        </div><br>
+
+        <div>
+            <button class="btn btn-success" type="submit" >
+                Сохранить
+            </button>
+            <a class="btn btn-warning" href="{% url 'user:logout' %}">Выйти</a>
+        </div>
+
+    </form>
+
+{% endblock %}

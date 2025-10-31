@@ -1,0 +1,159 @@
+{% extends 'shop/base.html' %}
+{% load static %}
+
+{% block css %}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.9.0/dist/css/foundation.min.css" crossorigin="anonymous">
+{% endblock %}
+
+{% block title %}{{ product.name }}{% endblock %}
+
+{% block content %}
+
+        <article class="grid-container">
+        <div class="grid-x cell">
+          <nav aria-label="You are here:" role="navigation">
+            <ul class="breadcrumbs">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Features</a></li>
+              <li class="disabled">Gene Splicing</li>
+              <li>
+                <span class="show-for-sr">Current: </span> Cloning
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="grid-x grid-margin-x">
+          <div class="medium-6 cell">
+            <img class="detail-show-image" src="{{ product.image.url }}">
+          </div>
+          <div class="medium-6 large-5 cell large-offset-1">
+            <h3>{{ product.name }}</h3>
+            <p>{{ product.description }}</p>
+
+            <label>Цена
+                <div class="price-block">
+                    <p>
+                        {{ product.price }} руб.
+                    </p>
+                </div>
+            </label>
+
+            <div class="grid-x">
+              <div class="small-3 cell">
+                <label class="middle">Наличие</label>
+              </div>
+              {% if product.quantity > 0 %}
+                <p style="color: green;">Есть в наличии</p>
+              {% else %}
+                <p style="color: red;">Нет в наличии</p>
+              {% endif %}
+            </div>
+
+            <div>
+                <a href="{% url 'shop:basket_add' product.id %}" class="button-in-basket">
+                    В корзину
+                </a>
+
+                <a href="{% url 'shop:buy_now_page' product.id %}" class="button-buy-now">
+                    Купить сейчас
+                </a>
+
+            </div>
+
+            <div class="small secondary expanded button-group">
+                <a href="https://www.instagram.com/" class="btn btn-info">Instagram</a>
+                <a href="https://web.telegram.org/k/" class="btn btn-success">Telegram</a>
+                <a href="https://www.viber.com/ru/" class="btn btn-warning">Viber</a>
+              </div>
+            </div>
+        </div>
+
+
+        <table class="product-table">
+          <thead>
+            <tr>
+              <th>Характеристики</th>
+              <th>Значение</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Вес товара</td>
+              <td>{{ product.weight }} кг</td>
+            </tr>
+            <tr>
+              <td>Длина упаковки</td>
+              <td>{{ product.length }} см</td>
+            </tr>
+            <tr>
+              <td>Ширина упаковки</td>
+              <td>{{ product.width }} см</td>
+            </tr>
+            <tr>
+              <td>Страна производства</td>
+              <td>{{ product.country }}</td>
+            </tr>
+            <tr>
+              <td>Категория</td>
+              <td>{{ product.category }}</td>
+            </tr>
+            <tr>
+              <td>Подкатегория</td>
+              <td>{{ product.sub_category }}</td>
+            </tr>
+          </tbody>
+        </table>
+
+
+        <div class="">
+          <hr>
+          <ul style="border-radius: 5px;" class="tabs" data-tabs="" id="example-tabs" role="tablist" data-e="13a17h-e">
+            <li class="tabs-title is-active" role="presentation"><a href="#panel1" aria-selected="true" role="tab" aria-controls="panel1" id="panel1-label" tabindex="0">Reviews</a></li>
+          </ul>
+          <div style="border-radius: 5px;" class="tabs-content" data-tabs-content="example-tabs">
+            <div class="tabs-panel is-active" id="panel1" role="tabpanel" aria-labelledby="panel1-label">
+              <h4>Reviews</h4>
+              <div class="media-object stack-for-small">
+                <div class="media-object-section">
+                  <img class="thumbnail" src="https://placehold.it/200x200">
+                </div>
+                <div class="media-object-section">
+                  <h5>Mike Stevenson</h5>
+                  <p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you.</p>
+                </div>
+              </div>
+              <div class="media-object stack-for-small">
+                <div class="media-object-section">
+                  <img class="thumbnail" src="https://placehold.it/200x200">
+                </div>
+                <div class="media-object-section">
+                  <h5>Mike Stevenson</h5>
+                  <p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you</p>
+                </div>
+              </div>
+              <div class="media-object stack-for-small">
+                <div class="media-object-section">
+                  <img class="thumbnail" src="https://placehold.it/200x200">
+                </div>
+                <div class="media-object-section">
+                  <h5>Mike Stevenson</h5>
+                  <p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you</p>
+                </div>
+              </div>
+              <label>
+                Коментарий
+                <textarea style="border-radius: 5px;" placeholder="None"></textarea>
+              </label>
+              <button class="button">Submit Review</button>
+            </div>
+
+          </div>
+        </div>
+
+        <hr>
+
+
+      </article>
+
+
+{% endblock %}

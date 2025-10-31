@@ -1,0 +1,38 @@
+{% extends 'shop/base.html' %}
+
+{% block title %}Вход{% endblock %}
+
+{% block content %}
+<h1>Вход в систему</h1>
+
+<form method="post" action="{% url 'user:login' %}">
+    {% csrf_token %}
+
+    {% if form.non_field_errors %}
+        <div class="error">
+                <p>{{ form.non_field_errors }}</p>
+        </div>
+    {% endif %}
+
+    <div>
+        {{ form.username }}
+    </div>
+
+    <br>
+
+    <div>
+        {{ form.password }}
+    </div>
+
+    <br>
+
+    <button class="btn btn-info" type="submit">Войти</button>
+</form>
+
+<div>
+    <p>Еще нет аккаунта?</p>
+    <a class="btn btn-success" href="{% url 'user:registration' %}">
+            Зарегистрироваться
+    </a>
+</div>
+{% endblock %}

@@ -1,0 +1,97 @@
+{% extends 'shop/base.html' %}
+
+{% block title %}Регистрация{% endblock %}
+
+{% block content %}
+<h1>Регистрация</h1>
+
+<form action="{% url 'user:registration' %}" method="post">
+    {% csrf_token %}
+
+    <div>
+        {{ form.first_name }}
+        {% if form.first_name.errors %}
+            <div class="error">
+                {% for error in form.first_name.errors %}
+                    <p>{{ error }}</p>
+                {% endfor %}
+            </div>
+        {% endif %}
+    </div><br>
+
+    <div>
+        {{ form.last_name }}
+        {% if form.last_name.errors %}
+            <div class="error">
+                {% for error in form.last_name.errors %}
+                    <p>{{ error }}</p>
+                {% endfor %}
+            </div>
+        {% endif %}
+    </div><br>
+
+    <div>
+        {{ form.username }}
+        {% if form.username.errors %}
+            <div class="error">
+                {% for error in form.username.errors %}
+                    <p>{{ error }}</p>
+                {% endfor %}
+            </div>
+        {% endif %}
+    </div><br>
+
+    <div>
+        {{ form.email }}
+        {% if form.email.errors %}
+            <div class="error">
+                {% for error in form.email.errors %}
+                    <p>{{ error }}</p>
+                {% endfor %}
+            </div>
+        {% endif %}
+    </div><br>
+
+    <div>
+        {{ form.telephone }}
+        {% if form.telephone.errors %}
+            <div class="error">
+                {% for error in form.telephone.errors %}
+                    <p>{{ error }}</p>
+                {% endfor %}
+            </div>
+        {% endif %}
+    </div><br>
+
+    <div>
+        {{ form.password1 }}
+        {% if form.password1.errors %}
+            <div class="error">
+                {% for error in form.password1.errors %}
+                    <p>{{ error }}</p>
+                {% endfor %}
+            </div>
+        {% endif %}
+    </div><br>
+
+    <div>
+        {{ form.password2 }}
+        {% if form.password2.errors %}
+            <div class="error">
+                {% for error in form.password2.errors %}
+                    <p>{{ error }}</p>
+                {% endfor %}
+            </div>
+        {% endif %}
+    </div><br>
+
+    <button class="btn btn-success" type="submit">Зарегистрироваться</button>
+</form>
+
+<div>
+    <p>Уже есть аккаунт?</p>
+    <a class="btn btn-info" href="{% url 'user:login' %}">
+            Войти
+    </a>
+</div>
+{% endblock %}

@@ -1,0 +1,3577 @@
+[
+  {
+    "model": "shop.categories",
+    "pk": 1,
+    "fields": {
+      "category_name": "Гитары"
+    }
+  },
+  {
+    "model": "shop.categories",
+    "pk": 2,
+    "fields": {
+      "category_name": "Клавишные"
+    }
+  },
+  {
+    "model": "shop.categories",
+    "pk": 3,
+    "fields": {
+      "category_name": "Ударные"
+    }
+  },
+  {
+    "model": "shop.categories",
+    "pk": 4,
+    "fields": {
+      "category_name": "Студийное оборудование"
+    }
+  },
+  {
+    "model": "shop.categories",
+    "pk": 5,
+    "fields": {
+      "category_name": "Коммутация"
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 1,
+    "fields": {
+      "sub_category_name": "Электрогитары"
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 2,
+    "fields": {
+      "sub_category_name": "Бас гитары"
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 3,
+    "fields": {
+      "sub_category_name": "Акустические гитары"
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 4,
+    "fields": {
+      "sub_category_name": "Классические гитары"
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 5,
+    "fields": {
+      "sub_category_name": "Цифровые фортепиано"
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 6,
+    "fields": {
+      "sub_category_name": "Синтезаторы"
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 7,
+    "fields": {
+      "sub_category_name": "Миди контроллеры"
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 8,
+    "fields": {
+      "sub_category_name": "Ударные установки"
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 9,
+    "fields": {
+      "sub_category_name": "Цифровые ударные установки"
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 10,
+    "fields": {
+      "sub_category_name": "Перкуссии"
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 11,
+    "fields": {
+      "sub_category_name": "Комплектующие к ударным"
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 12,
+    "fields": {
+      "sub_category_name": "Звуковые карты"
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 13,
+    "fields": {
+      "sub_category_name": "Студийные мониторы"
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 14,
+    "fields": {
+      "sub_category_name": "Микрофоны"
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 15,
+    "fields": {
+      "sub_category_name": "Студийные наушники"
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 16,
+    "fields": {
+      "sub_category_name": "Dj-контроллеры"
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 17,
+    "fields": {
+      "sub_category_name": "Кабеля гитарные"
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 18,
+    "fields": {
+      "sub_category_name": "Кабеля микрофонные"
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 19,
+    "fields": {
+      "sub_category_name": "Кабеля для акустических систем"
+    }
+  },
+  {
+    "model": "shop.subcategory",
+    "pk": 20,
+    "fields": {
+      "sub_category_name": "Midi-кабеля"
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 1,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/hamer-monaco-monf-cs-1666994.jpg",
+      "name": "Электрогитара Gibson Les Paul Standard '50s",
+      "weight": 4.5,
+      "length": 100.0,
+      "width": 33.0,
+      "country": "США",
+      "description": "Gibson Les Paul Standard '50s — это воплощение классического американского звучания. Корпус из махагони с топом из клёна обеспечивает насыщенный сустейн и богатый тембр. Два хамбакера Burstbucker дают мощный, плотный звук, идеально подходящий для рока, блюза и хард-рока. Гриф с профилем '50s Rounded обеспечивает комфортную игру, а винтажная фурнитура добавляет аутентичности. Эта модель — выбор профессионалов, ценящих традиции и качество.",
+      "price": 2499.0,
+      "quantity": 12,
+      "category": 1,
+      "sub_category": 1
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 2,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/Ibanez_GIO_GRG121DX-BKF.jpg",
+      "name": "Электрогитара Fesley 39\" Electric Guitar",
+      "weight": 3.6,
+      "length": 99.0,
+      "width": 32.0,
+      "country": "Китай",
+      "description": "Fesley 39\" — это современная электрогитара для начинающих и продвинутых гитаристов. Корпус из ольхи, гриф из клёна и накладка из палисандра создают сбалансированный звук. Wilkinson-пикапы обеспечивают чистое звучание с отличной атакой. Grover-колки гарантируют стабильный строй. Уникальная система Coil Split позволяет переключаться между синглом и хамбакером, расширяя палитру звуков. Отличный выбор для тех, кто ищет универсальность и стиль.",
+      "price": 399.0,
+      "quantity": 20,
+      "category": 1,
+      "sub_category": 1
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 3,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/1AD19A1056F5C41E7D26CBCA7525DF90.jpg",
+      "name": "Электрогитара Heritage H-150 Standard",
+      "weight": 4.2,
+      "length": 101.0,
+      "width": 34.0,
+      "country": "США",
+      "description": "Heritage H-150 Standard — это премиальная гитара, созданная вручную в Каламазу, штат Мичиган. Корпус из махагони с топом из фигурного клёна обеспечивает богатый, теплый звук. Звукосниматели Seymour Duncan дают мощный выход и выразительный тембр. Гриф с радиусом 12 дюймов и накладкой из палисандра обеспечивает комфортную игру. Эта гитара идеально подходит для студийной записи и живых выступлений, сочетая винтажный стиль с современными характеристиками.",
+      "price": 2799.0,
+      "quantity": 6,
+      "category": 1,
+      "sub_category": 1
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 4,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/1AD19A1056F5C41E7D26CBCA7525DF90.jpg",
+      "name": "Электрогитара Best Choice Starter Kit",
+      "weight": 3.2,
+      "length": 98.0,
+      "width": 31.0,
+      "country": "Китай",
+      "description": "Best Choice Starter Kit — это полный комплект для начинающих гитаристов. Включает гитару с корпусом из липы, усилитель, чехол, ремень, медиаторы и кабель. Звукосниматели HSS обеспечивают разнообразие звучания от чистого до перегруженного. Гриф из клёна с накладкой из композитного материала удобен для обучения. Отличный выбор для тех, кто делает первые шаги в мире электрогитары, предлагая всё необходимое в одной коробке.",
+      "price": 149.99,
+      "quantity": 30,
+      "category": 1,
+      "sub_category": 1
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 5,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/1AD19A1056F5C41E7D26CBCA7525DF90.jpg",
+      "name": "Электрогитара Ibanez RG550",
+      "weight": 3.8,
+      "length": 96.0,
+      "width": 31.5,
+      "country": "Япония",
+      "description": "Ibanez RG550 — легендарная гитара для шреда и прогрессивной музыки. Корпус из басвуда, гриф Wizard из клёна и накладка из палисандра обеспечивают невероятную скорость и комфорт. Конфигурация HSH с пикапами V7, S1 и V8 даёт широкий спектр звучания. Тремоло Edge позволяет выполнять сложные вибрато и dive-bomb техники. Это инструмент для тех, кто стремится к техническому совершенству и выразительности.",
+      "price": 999.0,
+      "quantity": 10,
+      "category": 1,
+      "sub_category": 1
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 6,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/1AD19A1056F5C41E7D26CBCA7525DF90.jpg",
+      "name": "Электрогитара Gibson SG Standard",
+      "weight": 3.4,
+      "length": 97.0,
+      "width": 32.0,
+      "country": "США",
+      "description": "Gibson SG Standard — это культовая гитара с агрессивным дизайном и лёгким корпусом. Два хамбакера 490R и 490T обеспечивают мощный, насыщенный звук. Корпус из махагони делает гитару лёгкой, но при этом сохраняет богатый тембр. Гриф SlimTaper позволяет играть быстро и точно. Эта модель идеально подходит для рока, панка и металла, сочетая классику и современность.",
+      "price": 1599.0,
+      "quantity": 8,
+      "category": 1,
+      "sub_category": 1
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 7,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/578bec54b54b4155fa932b07_zl79-es.jpg",
+      "name": "Электрогитара Cort X700 Duality",
+      "weight": 3.7,
+      "length": 98.0,
+      "width": 32.5,
+      "country": "Индонезия",
+      "description": "Cort X700 Duality — это современная гитара с корпусом из махагони и топом из фигурного клёна. Звукосниматели Fishman Fluence Modern обеспечивают чистое и агрессивное звучание. Гриф из клёна с накладкой из эбони и радиусом 12–16 дюймов обеспечивает комфортную игру. Тремоло-подвеска и стильный дизайн делают эту гитару идеальной для сценических выступлений и студийной работы.",
+      "price": 899.0,
+      "quantity": 14,
+      "category": 1,
+      "sub_category": 1
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 8,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/JT-301M-TSB.jpg",
+      "name": "Электрогитара Vintage V65 ReIssued",
+      "weight": 3.9,
+      "length": 100.0,
+      "width": 33.0,
+      "country": "Великобритания",
+      "description": "Vintage V65 ReIssued — гитара в стиле Telecaster с вибрато и винтажным характером. Корпус из ольхи, гриф из клёна и накладка из палисандра создают классическое звучание. Звукосниматели Wilkinson дают яркий и чистый тон. Уникальный дизайн и качественная сборка делают эту модель отличным выбором для любителей ретро-стиля и блюза.",
+      "price": 499.0,
+      "quantity": 11,
+      "category": 1,
+      "sub_category": 1
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 9,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/JT-301M-TSB.jpg",
+      "name": "Электрогитара Best Choice Hollywood Blue",
+      "weight": 3.3,
+      "length": 97.0,
+      "width": 31.5,
+      "country": "Китай",
+      "description": "Best Choice Hollywood Blue — яркая и доступная гитара для начинающих. Корпус из липы, гриф из клёна и HSS конфигурация звукоснимателей обеспечивают универсальное звучание. В комплекте — усилитель, чехол, ремень и медиаторы. Отличный вариант для тех, кто хочет начать играть без лишних затрат, сохранив стиль и функциональность.",
+      "price": 159.99,
+      "quantity": 25,
+      "category": 1,
+      "sub_category": 1
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 10,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/1AD19A1056F5C41E7D26CBCA7525DF90.jpg",
+      "name": "Электрогитара Pyle Full Size Electric Guitar",
+      "weight": 3.5,
+      "length": 99.0,
+      "width": 32.0,
+      "country": "Китай",
+      "description": "Pyle Full Size — это полноразмерная электрогитара с хамбакерами, усилителем и комплектом аксессуаров. Корпус из липы, гриф из клёна и накладка из палисандра создают сбалансированный звук. Отличный выбор для новичков, желающих получить всё необходимое в одном наборе. Подходит для обучения, домашних репетиций и первых выступлений.",
+      "price": 189.99,
+      "quantity": 22,
+      "category": 1,
+      "sub_category": 1
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 11,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/Frame_3__1___1_.jpg",
+      "name": "Бас-гитара Fender Player Precision Bass",
+      "weight": 4.2,
+      "length": 115.0,
+      "width": 34.0,
+      "country": "Мексика",
+      "description": "Fender Player Precision Bass — это современная интерпретация классического P-Bass. С корпусом из ольхи и грифом из клёна, он обеспечивает мощный, плотный звук, идеально подходящий для рока, панка и фанка. Один сплит-сингл пикап даёт узнаваемый тембр, а удобный гриф с радиусом 9.5 дюймов делает игру комфортной. Надёжная фурнитура и стильный дизайн делают эту модель отличным выбором как для сцены, так и для студии.",
+      "price": 799.99,
+      "quantity": 15,
+      "category": 1,
+      "sub_category": 2
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 12,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/Frame_3__1___1_.jpg",
+      "name": "Бас-гитара Ibanez SR300E",
+      "weight": 3.8,
+      "length": 114.0,
+      "width": 33.5,
+      "country": "Индонезия",
+      "description": "Ibanez SR300E — это бас-гитара с эргономичным корпусом и активной электроникой. Корпус из махагони, гриф из клёна и накладка из ятоба обеспечивают лёгкость и комфорт. Звукосниматели PowerSpan дают яркий и насыщенный звук, а активный эквалайзер позволяет гибко настраивать тембр. Отличный выбор для тех, кто ищет универсальность и современное звучание.",
+      "price": 399.0,
+      "quantity": 20,
+      "category": 1,
+      "sub_category": 2
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 13,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/p7-ash-wb-5st.png",
+      "name": "Бас-гитара Squier Classic Vibe '60s Jazz Bass",
+      "weight": 4.0,
+      "length": 116.0,
+      "width": 34.0,
+      "country": "Индонезия",
+      "description": "Squier Classic Vibe '60s Jazz Bass — это винтажная модель с современными характеристиками. Корпус из ольхи, гриф из клёна и накладка из индийского лаурела создают классическое звучание. Два сингла дают яркий, артикулированный звук, идеально подходящий для джаза, фанка и попа. Стильный внешний вид и доступная цена делают эту модель популярной среди начинающих и продвинутых басистов.",
+      "price": 449.99,
+      "quantity": 18,
+      "category": 1,
+      "sub_category": 2
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 14,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/5480_AMS-JTB402-TSB.jpg",
+      "name": "Бас-гитара Yamaha TRBX304",
+      "weight": 4.1,
+      "length": 115.0,
+      "width": 34.0,
+      "country": "Индонезия",
+      "description": "Yamaha TRBX304 — это бас-гитара с активной электроникой и эргономичным дизайном. Корпус из махагони, гриф из клёна и накладка из палисандра обеспечивают комфорт и стабильность. Звукосниматели M3 дают мощный и чистый звук, а 5-позиционный переключатель EQ позволяет быстро адаптироваться к любому стилю. Отличный выбор для сценических выступлений и репетиций.",
+      "price": 379.99,
+      "quantity": 22,
+      "category": 1,
+      "sub_category": 2
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 15,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/v7_4st_ash_lpb.png",
+      "name": "Бас-гитара Music Man StingRay Special",
+      "weight": 4.5,
+      "length": 117.0,
+      "width": 34.5,
+      "country": "США",
+      "description": "Music Man StingRay Special — это премиальная бас-гитара с активной электроникой и фирменным звучанием. Корпус из ольхи, гриф из клёна и накладка из эбони создают мощный и чёткий тон. Один хамбакер с 3-полосным эквалайзером даёт гибкость и выразительность. Лёгкий корпус и надёжная фурнитура делают эту модель идеальной для профессионалов.",
+      "price": 2199.0,
+      "quantity": 5,
+      "category": 1,
+      "sub_category": 2
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 16,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/Ibanez_GIO_GSR200B-WNF_Walnut_Flat.jpeg",
+      "name": "Бас-гитара Epiphone Thunderbird Vintage Pro",
+      "weight": 4.3,
+      "length": 118.0,
+      "width": 35.0,
+      "country": "Китай",
+      "description": "Epiphone Thunderbird Vintage Pro — это бас-гитара с уникальным дизайном и мощным звуком. Корпус из махагони, гриф сквозной конструкции и два хамбакера дают насыщенный, глубокий тембр. Отлично подходит для хард-рока и металла. Винтажный стиль и надёжная сборка делают эту модель привлекательной как визуально, так и по звучанию.",
+      "price": 649.0,
+      "quantity": 10,
+      "category": 1,
+      "sub_category": 2
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 17,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/p7-ash-wb-5st.png",
+      "name": "Бас-гитара Rickenbacker 4003",
+      "weight": 4.2,
+      "length": 114.0,
+      "width": 33.5,
+      "country": "США",
+      "description": "Rickenbacker 4003 — это легендарная бас-гитара с ярким и узнаваемым звуком. Корпус из клёна, гриф сквозной конструкции и два сингла дают чёткий, звонкий тембр. Идеально подходит для прог-рока, альтернативы и попа. Уникальный дизайн, фирменная фурнитура и высокое качество сборки делают эту модель культовой среди басистов.",
+      "price": 2199.0,
+      "quantity": 4,
+      "category": 1,
+      "sub_category": 2
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 18,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/5480_AMS-JTB402-TSB.jpg",
+      "name": "Бас-гитара Cort GB74 Gig",
+      "weight": 3.9,
+      "length": 115.0,
+      "width": 34.0,
+      "country": "Индонезия",
+      "description": "Cort GB74 Gig — это современная бас-гитара с активной электроникой и гибким звучанием. Корпус из ольхи, гриф из клёна и накладка из палисандра обеспечивают стабильность и комфорт. Конфигурация H/S с 3-полосным эквалайзером позволяет адаптироваться к любому стилю. Отличный выбор для универсальных басистов.",
+      "price": 599.0,
+      "quantity": 12,
+      "category": 1,
+      "sub_category": 2
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 19,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/v7_4st_ash_lpb.png",
+      "name": "Бас-гитара Sandberg California II VM",
+      "weight": 4.0,
+      "length": 114.0,
+      "width": 34.0,
+      "country": "Германия",
+      "description": "Sandberg California II VM — это высококачественная бас-гитара с гибкой конфигурацией звукоснимателей. Корпус из ольхи, гриф из клёна и накладка из палисандра создают сбалансированный звук. Хамбакер в бридже и сингл в неке дают широкий спектр тембров. Немецкое качество и стильный дизайн делают эту модель идеальной для студии и сцены.",
+      "price": 1399.0,
+      "quantity": 7,
+      "category": 1,
+      "sub_category": 2
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 20,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/Ibanez_GIO_GSR200B-WNF_Walnut_Flat.jpeg",
+      "name": "Бас-гитара Warwick Corvette Standard",
+      "weight": 4.4,
+      "length": 115.0,
+      "width": 34.0,
+      "country": "Германия",
+      "description": "Warwick Corvette Standard — это бас-гитара с активной электроникой и фирменным немецким качеством. Корпус из ольхи, гриф из овенкола и накладка из палисандра дают мощный, насыщенный звук. Звукосниматели MEC обеспечивают точность и выразительность. Отличный выбор для тех, кто ценит надёжность и профессиональное звучание.",
+      "price": 1699.0,
+      "quantity": 6,
+      "category": 1,
+      "sub_category": 2
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 21,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/3663_USM-og8ceb.jpg",
+      "name": "Акустическая гитара Best Choice Products 41in Cutaway",
+      "weight": 2.8,
+      "length": 104.0,
+      "width": 40.0,
+      "country": "Китай",
+      "description": "Эта полноразмерная акустическая гитара от Best Choice Products идеально подходит для начинающих. Корпус из цельного дерева обеспечивает сбалансированное звучание, а вырез на деке облегчает доступ к верхним ладам. В комплект входят чехол, ремень, каподастр, запасные струны и медиаторы. Гитара отличается лёгким весом, удобной посадкой и привлекательным дизайном, что делает её отличным выбором для домашнего обучения и первых выступлений.",
+      "price": 129.99,
+      "quantity": 25,
+      "category": 1,
+      "sub_category": 3
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 22,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/1012_USM-OG2CEN.jpg",
+      "name": "Акустическая гитара Best Choice Products 38in Natural",
+      "weight": 2.5,
+      "length": 98.0,
+      "width": 38.0,
+      "country": "Китай",
+      "description": "Компактная 38-дюймовая акустическая гитара с натуральной отделкой. Изготовлена из цельного дерева, она обеспечивает чистое и яркое звучание. Благодаря меньшему размеру идеально подходит для подростков и начинающих. В комплекте — сумка, ремень, струны и медиаторы. Удобный гриф и лёгкий корпус делают её отличным выбором для повседневной практики и обучения.",
+      "price": 109.99,
+      "quantity": 30,
+      "category": 1,
+      "sub_category": 3
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 23,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/1012_USM-OG2CEN.jpg",
+      "name": "Акустическая гитара Best Choice Products 41in Blue",
+      "weight": 2.9,
+      "length": 104.0,
+      "width": 40.0,
+      "country": "Китай",
+      "description": "Эта гитара выделяется ярким синим цветом и классическим dreadnought-корпусом. Изготовлена из цельного дерева, она обеспечивает насыщенное и сбалансированное звучание. В комплекте — тюнер, чехол, ремень, медиаторы и ткань для полировки. Отличный выбор для тех, кто хочет стильный инструмент с хорошим звуком и полной комплектацией.",
+      "price": 139.99,
+      "quantity": 18,
+      "category": 1,
+      "sub_category": 3
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 24,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/LAG_T70A.jpg",
+      "name": "Акустическая гитара Vintage Statesboro' Parlour",
+      "weight": 2.6,
+      "length": 100.0,
+      "width": 36.0,
+      "country": "Великобритания",
+      "description": "Электроакустическая гитара в стиле парлор с компактным корпусом и винтажной отделкой Whisky Sour. Оснащена встроенным предусилителем и пикапом, что делает её идеальной для живых выступлений. Звук тёплый и выразительный, особенно при игре пальцами. Отличный выбор для блюза, фолка и акустических сетов.",
+      "price": 499.0,
+      "quantity": 10,
+      "category": 1,
+      "sub_category": 3
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 25,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/WLO12SE.jpg",
+      "name": "Акустическая гитара Gold Tone GT Parlor",
+      "weight": 2.7,
+      "length": 102.0,
+      "width": 37.0,
+      "country": "США",
+      "description": "GT Parlor от Gold Tone — это акустико-электрическая гитара с цельным корпусом и компактной формой. Идеальна для путешествий и камерных выступлений. Звукосниматель с предусилителем позволяет подключаться к усилителю. Гитара обладает ярким, чистым звуком и стильной отделкой Satin Natural. Отличный выбор для тех, кто ищет лёгкий и универсальный инструмент.",
+      "price": 599.0,
+      "quantity": 8,
+      "category": 1,
+      "sub_category": 3
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 26,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/110059_323.jpg",
+      "name": "Акустическая гитара Yamaha LL Series",
+      "weight": 3.0,
+      "length": 105.0,
+      "width": 41.0,
+      "country": "Япония",
+      "description": "Гитары серии LL от Yamaha — это высококачественные инструменты с цельным верхом из ели и корпусом из палисандра. Они обеспечивают мощный, насыщенный звук и отличную проекцию. Идеальны для профессиональных выступлений и студийной записи. Эргономичный гриф и качественная фурнитура делают игру комфортной и точной.",
+      "price": 899.0,
+      "quantity": 12,
+      "category": 1,
+      "sub_category": 3
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 27,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/3663_USM-og8ceb.jpg",
+      "name": "Акустическая гитара Ashthorpe 41in Cutaway Natural",
+      "weight": 2.8,
+      "length": 104.0,
+      "width": 40.0,
+      "country": "Китай",
+      "description": "Ashthorpe 41in — это полноразмерная гитара с вырезом, облегчающим доступ к верхним ладам. Корпус из липы, гриф из клёна и накладка из палисандра обеспечивают сбалансированное звучание. В комплекте — чехол, ремень, тюнер, струны и медиаторы. Отличный выбор для начинающих и любителей, ищущих качественный стартовый инструмент.",
+      "price": 119.99,
+      "quantity": 22,
+      "category": 1,
+      "sub_category": 3
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 28,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/110059_323.jpg",
+      "name": "Акустическая гитара Taylor 124ce Special Edition",
+      "weight": 3.2,
+      "length": 106.0,
+      "width": 42.0,
+      "country": "США",
+      "description": "Taylor 124ce — это электроакустическая гитара с корпусом из ореха и верхом из ели. Оснащена фирменной электроникой ES2, обеспечивающей натуральное звучание при подключении. Эргономичный гриф и вырез делают игру комфортной. Отличный выбор для профессионалов, ценящих качество, стабильность и выразительный тембр.",
+      "price": 1099.0,
+      "quantity": 6,
+      "category": 1,
+      "sub_category": 3
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 29,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/1012_USM-OG2CEN.jpg",
+      "name": "Акустическая гитара Fender CD-60SCE Black",
+      "weight": 3.1,
+      "length": 104.0,
+      "width": 41.0,
+      "country": "Индонезия",
+      "description": "Fender CD-60SCE — это электроакустическая гитара с корпусом dreadnought и вырезом. Верх из цельной ели, корпус из махагони. Оснащена встроенным тюнером и предусилителем Fishman. Звук мощный и сбалансированный, подходит для различных жанров. Отличный выбор для сцены и студии.",
+      "price": 349.99,
+      "quantity": 14,
+      "category": 1,
+      "sub_category": 3
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 30,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/1012_USM-OG2CEN.jpg",
+      "name": "Акустическая гитара Washburn R310 Victorian",
+      "weight": 2.9,
+      "length": 103.0,
+      "width": 39.0,
+      "country": "Китай",
+      "description": "Washburn R310 — это винтажная акустическая гитара с корпусом из махагони и верхом из ели. Компактная форма и декоративные элементы придают ей уникальный стиль. Звук тёплый и выразительный, особенно при игре пальцами. Отличный выбор для фолка, блюза и акустических сетов.",
+      "price": 599.0,
+      "quantity": 9,
+      "category": 1,
+      "sub_category": 3
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 31,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/ac100op.jpg",
+      "name": "Классическая гитара(нейлон) Yamaha C40",
+      "weight": 2.8,
+      "length": 100.0,
+      "width": 37.0,
+      "country": "Индонезия",
+      "description": "Yamaha C40 — одна из самых популярных классических гитар для начинающих. Корпус из меренти, верхняя дека из ели, гриф из нато. Звук тёплый и сбалансированный, идеально подходит для обучения. Нейлоновые струны мягкие для пальцев, а удобный гриф облегчает освоение аккордов. Гитара отличается надёжной сборкой, стабильным строем и доступной ценой, что делает её отличным выбором для студентов музыкальных школ и любителей.",
+      "price": 139.0,
+      "quantity": 20,
+      "category": 1,
+      "sub_category": 4
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 32,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/7CBFED9C78700ED9DE31AE8AF6931F36.jpg",
+      "name": "Классическая гитара(нейлон) Cordoba C5",
+      "weight": 3.0,
+      "length": 101.0,
+      "width": 38.0,
+      "country": "Китай",
+      "description": "Cordoba C5 — это классическая гитара с верхом из цельной канадской ели и корпусом из махагони. Она обеспечивает богатое, выразительное звучание с хорошей проекцией. Гриф из махагони с накладкой из палисандра удобен для игры. Эта модель подходит как для начинающих, так и для продвинутых гитаристов, ценящих тёплый тембр и комфорт. Cordoba славится качеством сборки и вниманием к деталям.",
+      "price": 299.0,
+      "quantity": 12,
+      "category": 1,
+      "sub_category": 4
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 33,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/7CBFED9C78700ED9DE31AE8AF6931F36.jpg",
+      "name": "Классическая гитара(нейлон) Alhambra 3C",
+      "weight": 3.2,
+      "length": 102.0,
+      "width": 38.5,
+      "country": "Испания",
+      "description": "Alhambra 3C — это испанская классическая гитара с верхом из цельной ели и корпусом из сапеле. Звук яркий, с отличной динамикой и сустейном. Гриф из махагони с накладкой из палисандра обеспечивает точность и комфорт. Эта модель идеально подходит для классического репертуара и фламенко. Alhambra — один из самых уважаемых брендов в мире классических гитар.",
+      "price": 499.0,
+      "quantity": 8,
+      "category": 1,
+      "sub_category": 4
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 34,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/4F323E8777452C35AE9828650EA965DF.jpg",
+      "name": "Классическая гитара(нейлон) La Mancha Rubi CM",
+      "weight": 2.9,
+      "length": 100.0,
+      "width": 37.5,
+      "country": "Китай",
+      "description": "La Mancha Rubi CM — это классическая гитара с верхом из цельной кедровой древесины и корпусом из махагони. Звук тёплый, насыщенный, идеально подходит для сольной игры. Гриф из махагони с накладкой из овангкола обеспечивает комфортную посадку. Эта модель рекомендована для учеников музыкальных школ и тех, кто ищет качественный инструмент по разумной цене.",
+      "price": 349.0,
+      "quantity": 10,
+      "category": 1,
+      "sub_category": 4
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 35,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/ac100op.jpg",
+      "name": "Классическая гитара(нейлон) Fender CN-60S",
+      "weight": 2.7,
+      "length": 99.0,
+      "width": 36.5,
+      "country": "Индонезия",
+      "description": "Fender CN-60S — это классическая гитара с верхом из цельной ели и корпусом из махагони. Она сочетает традиционный дизайн с современным комфортом. Нейлоновые струны и узкий гриф делают её удобной для начинающих. Звук чистый и сбалансированный, подходит для различных жанров. Fender предлагает надёжность и стиль в доступном формате.",
+      "price": 199.0,
+      "quantity": 18,
+      "category": 1,
+      "sub_category": 4
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 36,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/ac100op.jpg",
+      "name": "Классическая гитара(нейлон) Takamine GC1",
+      "weight": 3.1,
+      "length": 101.0,
+      "width": 38.0,
+      "country": "Китай",
+      "description": "Takamine GC1 — это классическая гитара с верхом из ели и корпусом из махагони. Звук тёплый, с хорошей проекцией. Гриф из махагони с накладкой из розового дерева обеспечивает комфортную игру. Takamine — известный бренд, предлагающий качественные инструменты для сцены и студии. GC1 — отличный выбор для тех, кто ищет надёжную классическую гитару с выразительным тембром.",
+      "price": 249.0,
+      "quantity": 14,
+      "category": 1,
+      "sub_category": 4
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 37,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/S65C-GG_Sofia_Soloist_Series_Green_Globe.jpg",
+      "name": "Классическая гитара(нейлон) Ortega R121",
+      "weight": 2.8,
+      "length": 100.0,
+      "width": 37.0,
+      "country": "Китай",
+      "description": "Ortega R121 — это классическая гитара с верхом из кедра и корпусом из махагони. Звук мягкий, тёплый, идеально подходит для камерной музыки и сольных произведений. Гриф из махагони с накладкой из палисандра удобен для игры. Ortega предлагает отличное качество сборки и стильный внешний вид. Эта модель подойдёт как для учеников, так и для любителей.",
+      "price": 229.0,
+      "quantity": 16,
+      "category": 1,
+      "sub_category": 4
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 38,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/4F323E8777452C35AE9828650EA965DF.jpg",
+      "name": "Классическая гитара(нейлон) Admira Malaga",
+      "weight": 3.0,
+      "length": 101.0,
+      "width": 38.0,
+      "country": "Испания",
+      "description": "Admira Malaga — это испанская классическая гитара с верхом из цельной ели и корпусом из сапеле. Звук яркий, с хорошей атакой и сустейном. Гриф из махагони с накладкой из палисандра обеспечивает точность и комфорт. Эта модель подходит для обучения и выступлений, сочетая традиционное звучание и надёжную конструкцию.",
+      "price": 399.0,
+      "quantity": 9,
+      "category": 1,
+      "sub_category": 4
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 39,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/ac100op.jpg",
+      "name": "Классическая гитара(нейлон) Valencia VC204",
+      "weight": 2.6,
+      "length": 98.0,
+      "width": 36.0,
+      "country": "Китай",
+      "description": "Valencia VC204 — это доступная классическая гитара для начинающих. Верх из ели, корпус из агатиса, гриф из нато. Звук чистый, с хорошей читаемостью. Нейлоновые струны и узкий гриф делают её удобной для первых шагов. В комплекте — чехол и тюнер. Отличный выбор для учеников и тех, кто хочет попробовать классическую гитару.",
+      "price": 119.0,
+      "quantity": 22,
+      "category": 1,
+      "sub_category": 4
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 40,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/4F323E8777452C35AE9828650EA965DF.jpg",
+      "name": "Классическая гитара(нейлон) Stagg C546TCE",
+      "weight": 3.2,
+      "length": 102.0,
+      "width": 38.5,
+      "country": "Китай",
+      "description": "Stagg C546TCE — это электроакустическая классическая гитара с верхом из ели и корпусом из махагони. Оснащена активным предусилителем с тюнером, что делает её идеальной для сцены. Звук тёплый, выразительный, подходит для классики и фламенко. Гриф из махагони с накладкой из палисандра удобен для игры. Отличный выбор для тех, кто хочет подключать гитару к усилителю.",
+      "price": 289.0,
+      "quantity": 11,
+      "category": 1,
+      "sub_category": 4
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 41,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/9927_tz.jpeg",
+      "name": "Цифровое пианино Yamaha CLP-735",
+      "weight": 60.0,
+      "length": 141.0,
+      "width": 45.0,
+      "country": "Япония",
+      "description": "Yamaha CLP-735 — это цифровое фортепиано из серии Clavinova, оснащённое клавиатурой GrandTouch-S и звуковыми движками Yamaha CFX и Bösendorfer Imperial. Оно предлагает реалистичную механику, богатое звучание и множество встроенных функций, включая Bluetooth MIDI, запись и обучающие режимы. Благодаря элегантному дизайну и качественной акустике, CLP-735 идеально подходит как для домашнего музицирования, так и для профессиональной практики.",
+      "price": 2899.0,
+      "quantity": 8,
+      "category": 2,
+      "sub_category": 5
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 42,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/9499_tz.jpg",
+      "name": "Цифровое пианино Kawai CA49",
+      "weight": 69.0,
+      "length": 140.0,
+      "width": 46.0,
+      "country": "Япония",
+      "description": "Kawai CA49 — это цифровое фортепиано с деревянной клавиатурой Grand Feel Compact и звуковым движком Harmonic Imaging XL. Оно воспроизводит звучание рояля Shigeru Kawai с высокой детализацией и динамикой. Встроенные уроки, Bluetooth MIDI и аудио, а также мощная акустическая система делают его отличным выбором для учеников, преподавателей и домашних студий.",
+      "price": 2399.0,
+      "quantity": 6,
+      "category": 2,
+      "sub_category": 5
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 43,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/9455_ap460_1bigger.jpg",
+      "name": "Цифровое пианино Roland RP701",
+      "weight": 50.0,
+      "length": 137.0,
+      "width": 43.0,
+      "country": "Япония",
+      "description": "Roland RP701 — это стильное цифровое фортепиано с клавиатурой PHA-4 Standard и звуковым движком SuperNATURAL. Оно предлагает выразительное звучание, чувствительную механику и встроенные функции обучения. Bluetooth-аудио и MIDI позволяют подключать мобильные устройства, а приложение Piano Every Day помогает отслеживать прогресс. RP701 — отличный выбор для семей и начинающих музыкантов.",
+      "price": 1499.0,
+      "quantity": 10,
+      "category": 2,
+      "sub_category": 5
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 44,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/9391_9B6B6EBE09CA69FBC3FA152B8E92C91A_LRG.jpg",
+      "name": "Цифровое пианино Casio PX-870",
+      "weight": 35.0,
+      "length": 139.0,
+      "width": 42.0,
+      "country": "Китай",
+      "description": "Casio PX-870 — это цифровое фортепиано с клавиатурой Tri-Sensor Scaled Hammer Action II и звуковым движком AiR. Оно предлагает реалистичное ощущение игры, встроенную акустическую систему с четырьмя динамиками, а также функции записи и обучения. Компактный корпус и элегантный дизайн делают его идеальным для домашнего использования и занятий музыкой.",
+      "price": 1199.0,
+      "quantity": 14,
+      "category": 2,
+      "sub_category": 5
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 45,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/9927_tz.jpeg",
+      "name": "Цифровое пианино Korg G1 Air",
+      "weight": 42.0,
+      "length": 134.0,
+      "width": 41.0,
+      "country": "Япония",
+      "description": "Korg G1 Air — это цифровое фортепиано с тремя звуковыми движками, имитирующими немецкий, австрийский и японский рояли. Клавиатура RH3 обеспечивает реалистичную механику, а встроенная акустическая система и Bluetooth-аудио делают его отличным выбором для дома и студии. Стильный дизайн и компактность — дополнительные плюсы.",
+      "price": 1699.0,
+      "quantity": 11,
+      "category": 2,
+      "sub_category": 5
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 46,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/9455_ap460_1bigger.jpg",
+      "name": "Цифровое пианино Yamaha P-515",
+      "weight": 22.0,
+      "length": 133.0,
+      "width": 37.0,
+      "country": "Япония",
+      "description": "Yamaha P-515 — это портативное цифровое фортепиано с клавиатурой NWX и звуковыми движками CFX и Bösendorfer. Оно предлагает богатое звучание, множество тембров, встроенные эффекты и Bluetooth-аудио. Благодаря компактному корпусу и профессиональному качеству, P-515 подходит как для сцены, так и для домашнего использования.",
+      "price": 1499.0,
+      "quantity": 13,
+      "category": 2,
+      "sub_category": 5
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 47,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/9927_tz.jpeg",
+      "name": "Цифровое пианино Casio GP-310",
+      "weight": 78.0,
+      "length": 143.0,
+      "width": 48.0,
+      "country": "Япония",
+      "description": "Casio GP-310 — это цифровое фортепиано с клавиатурой Natural Grand Hammer Action и звуковым движком AiR Grand. Оно воспроизводит звучание трёх роялей: Berlin, Hamburg и Vienna. Корпус из дерева, мощная акустика и реалистичная механика делают его идеальным для профессионалов и ценителей акустики.",
+      "price": 3499.0,
+      "quantity": 5,
+      "category": 2,
+      "sub_category": 5
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 48,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/9499_tz.jpg",
+      "name": "Цифровое пианино Kawai CN201",
+      "weight": 43.0,
+      "length": 136.0,
+      "width": 42.0,
+      "country": "Япония",
+      "description": "Kawai CN201 — это цифровое фортепиано с клавиатурой Responsive Hammer III и звуковым движком Progressive Harmonic Imaging. Оно предлагает реалистичное звучание, встроенные уроки, Bluetooth и стильный корпус. Отличный выбор для учеников, преподавателей и домашних студий.",
+      "price": 1599.0,
+      "quantity": 9,
+      "category": 2,
+      "sub_category": 5
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 49,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/9455_ap460_1bigger.jpg",
+      "name": "Цифровое пианино Roland F701",
+      "weight": 36.0,
+      "length": 135.0,
+      "width": 34.0,
+      "country": "Япония",
+      "description": "Roland F701 — это компактное цифровое фортепиано с клавиатурой PHA-4 Standard и звуковым движком SuperNATURAL. Оно предлагает чистое, выразительное звучание, встроенные функции обучения и Bluetooth-подключение. Элегантный корпус и тихая клавиатура делают его идеальным для квартир и небольших помещений.",
+      "price": 1299.0,
+      "quantity": 12,
+      "category": 2,
+      "sub_category": 5
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 50,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/9927_tz.jpeg",
+      "name": "Цифровое пианино Casio AP-470",
+      "weight": 43.0,
+      "length": 141.0,
+      "width": 43.0,
+      "country": "Китай",
+      "description": "Casio AP-470 — это цифровое фортепиано из серии Celviano с клавиатурой Tri-Sensor Scaled Hammer Action II и звуковым движком AiR. Оно предлагает два варианта звучания рояля, встроенные уроки, запись и USB-аудио. Классический дизайн и мощная акустика делают его отличным выбором для домашнего музицирования и обучения.",
+      "price": 999.0,
+      "quantity": 15,
+      "category": 2,
+      "sub_category": 5
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 51,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/9452_ctk7200_1bigger.jpg",
+      "name": "Синтезатор Korg Minilogue XD",
+      "weight": 2.8,
+      "length": 50.0,
+      "width": 30.0,
+      "country": "Япония",
+      "description": "Korg Minilogue XD — это гибридный синтезатор с аналоговыми генераторами и цифровым мультидвижком. Он предлагает 4-голосную полифонию, секвенсор на 16 шагов, эффектный OLED-дисплей с визуализацией волны и встроенные эффекты. Благодаря компактному корпусу и мощному звуку, Minilogue XD идеально подходит для студийной работы, живых выступлений и саунд-дизайна. Его гибкость позволяет создавать как классические аналоговые тембры, так и экспериментальные текстуры.",
+      "price": 699.0,
+      "quantity": 10,
+      "category": 2,
+      "sub_category": 6
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 52,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/9452_ctk7200_1bigger.jpg",
+      "name": "Синтезатор Roland Juno-DS61",
+      "weight": 5.3,
+      "length": 100.0,
+      "width": 30.0,
+      "country": "Япония",
+      "description": "Roland Juno-DS61 — это универсальный синтезатор с 61 клавишей, предназначенный для сценических и студийных задач. Он оснащён множеством тембров, включая акустические инструменты, синтезы, ударные и вокальные эффекты. Встроенный аудиоинтерфейс, секвенсор и возможность загрузки пользовательских звуков делают его мощным инструментом для композиторов и исполнителей. Лёгкий корпус и питание от батарей позволяют использовать его в мобильных условиях.",
+      "price": 799.0,
+      "quantity": 12,
+      "category": 2,
+      "sub_category": 6
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 53,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/9452_ctk7200_1bigger.jpg",
+      "name": "Синтезатор Yamaha MODX6+",
+      "weight": 6.6,
+      "length": 93.0,
+      "width": 33.0,
+      "country": "Япония",
+      "description": "Yamaha MODX6+ — это синтезатор с 61 клавишей и гибридным движком AWM2/FM-X, сочетающим сэмплирование и частотную модуляцию. Он предлагает богатую палитру звуков, мощную матрицу управления и интеграцию с DAW. Благодаря лёгкому корпусу, USB-аудио и MIDI, MODX6+ идеально подходит для сценических музыкантов, продюсеров и саунд-дизайнеров. Его интерфейс интуитивен, а возможности — практически безграничны.",
+      "price": 1299.0,
+      "quantity": 8,
+      "category": 2,
+      "sub_category": 6
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 54,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/ctk1500_1bigger.jpg",
+      "name": "Синтезатор Arturia MicroFreak",
+      "weight": 1.0,
+      "length": 32.0,
+      "width": 23.0,
+      "country": "Франция",
+      "description": "Arturia MicroFreak — это экспериментальный синтезатор с цифровыми осцилляторами и аналоговым фильтром. Он предлагает 25 клавиш с сенсорной поверхностью, множество алгоритмов генерации звука, арпеджиатор и секвенсор. MicroFreak идеально подходит для создания нестандартных тембров, текстур и ритмических паттернов. Его компактность и уникальный интерфейс делают его любимцем среди электронных музыкантов и саунд-дизайнеров.",
+      "price": 349.0,
+      "quantity": 15,
+      "category": 2,
+      "sub_category": 6
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 55,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/40B0D7EA86E005947A9C70998CF12687.jpg",
+      "name": "Синтезатор Moog Subsequent 25",
+      "weight": 7.3,
+      "length": 52.0,
+      "width": 26.0,
+      "country": "США",
+      "description": "Moog Subsequent 25 — это аналоговый монофонический синтезатор с двумя осцилляторами, классическим фильтром Moog и насыщенным звуком. Он предлагает богатые басы, лиды и текстуры, идеально подходящие для живых выступлений и студийной записи. Компактный корпус, MIDI и CV-интерфейсы делают его универсальным инструментом для интеграции в любой сетап. Это современное переосмысление легендарного Moog sound.",
+      "price": 999.0,
+      "quantity": 6,
+      "category": 2,
+      "sub_category": 6
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 56,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/40B0D7EA86E005947A9C70998CF12687.jpg",
+      "name": "Синтезатор Novation Bass Station II",
+      "weight": 2.7,
+      "length": 46.0,
+      "width": 27.0,
+      "country": "Великобритания",
+      "description": "Novation Bass Station II — это аналоговый монофонический синтезатор, ориентированный на басы и лиды. Он оснащён двумя осцилляторами, суб-осциллятором, фильтрами, арпеджиатором и секвенсором. Благодаря компактному корпусу и мощному звуку, Bass Station II стал популярным выбором среди электронных музыкантов. Он легко интегрируется в студийный и сценический сетап благодаря USB и MIDI.",
+      "price": 499.0,
+      "quantity": 11,
+      "category": 2,
+      "sub_category": 6
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 57,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/40B0D7EA86E005947A9C70998CF12687.jpg",
+      "name": "Синтезатор Behringer DeepMind 6",
+      "weight": 8.0,
+      "length": 88.0,
+      "width": 30.0,
+      "country": "Китай",
+      "description": "Behringer DeepMind 6 — это аналоговый полифонический синтезатор с 6 голосами, двумя осцилляторами на голос, встроенными эффектами и модульной матрицей. Он предлагает богатое звучание, гибкую архитектуру и интеграцию с DAW. DeepMind 6 идеально подходит для создания атмосферных падов, текстур и классических синтезаторных тембров. Его интерфейс интуитивен, а возможности — впечатляют.",
+      "price": 699.0,
+      "quantity": 9,
+      "category": 2,
+      "sub_category": 6
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 58,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/40B0D7EA86E005947A9C70998CF12687.jpg",
+      "name": "Синтезатор Sequential Take 5",
+      "weight": 9.0,
+      "length": 65.0,
+      "width": 30.0,
+      "country": "США",
+      "description": "Sequential Take 5 — это компактный аналоговый синтезатор с 5 голосами, двумя осцилляторами, фильтром Prophet-5 и встроенными эффектами. Он предлагает богатое, винтажное звучание и современную гибкость. Благодаря компактному корпусу и удобному интерфейсу, Take 5 идеально подходит для сценических музыкантов и студийных продюсеров. Это мощный инструмент в портативном формате.",
+      "price": 1399.0,
+      "quantity": 4,
+      "category": 2,
+      "sub_category": 6
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 59,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/AW830-2.jpeg",
+      "name": "Синтезатор Nord Lead A1",
+      "weight": 5.0,
+      "length": 86.0,
+      "width": 30.0,
+      "country": "Швеция",
+      "description": "Nord Lead A1 — это виртуально-аналоговый синтезатор с 49 клавишами и 24 голосами полифонии. Он предлагает интуитивный интерфейс, мощную архитектуру и богатую палитру звуков. Благодаря лёгкому корпусу, MIDI и USB, Lead A1 идеально подходит для сцены и студии. Его фирменное звучание и надёжность делают его выбором профессионалов по всему миру.",
+      "price": 1799.0,
+      "quantity": 7,
+      "category": 2,
+      "sub_category": 6
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 60,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/9452_ctk7200_1bigger.jpg",
+      "name": "Синтезатор Elektron Digitone",
+      "weight": 1.5,
+      "length": 27.0,
+      "width": 18.0,
+      "country": "Швеция",
+      "description": "Elektron Digitone — это цифровой FM-синтезатор с секвенсором, эффектами и гибкой архитектурой. Он предлагает 8 голосов, множество алгоритмов и мощную матрицу управления. Компактный корпус, MIDI и Overbridge делают его идеальным для интеграции в студийный и сценический сетап. Digitone — это современное переосмысление FM-синтеза с акцентом на креативность и производительность.",
+      "price": 799.0,
+      "quantity": 10,
+      "category": 2,
+      "sub_category": 6
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 61,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/628EBFFA3A0644712BBC1843459F7CF7.jpg",
+      "name": "Миди контроллер Akai MPK Mini MK3",
+      "weight": 0.75,
+      "length": 31.8,
+      "width": 18.1,
+      "country": "Китай",
+      "description": "Akai MPK Mini MK3 — это компактный MIDI-контроллер с 25 клавишами, 8 пэдами с RGB-подсветкой и 8 ручками для управления параметрами. Он идеально подходит для мобильных продюсеров и начинающих музыкантов. В комплекте — пакет программного обеспечения, включая MPC Beats и виртуальные инструменты. Контроллер легко интегрируется с DAW и предлагает арпеджиатор, джойстик pitch/mod и встроенный OLED-дисплей. Это мощный инструмент в портативном формате.",
+      "price": 129.0,
+      "quantity": 20,
+      "category": 2,
+      "sub_category": 7
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 62,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/6BCC5DD8043729964D56FEBBDD104A1F.jpg",
+      "name": "Миди контроллер Novation Launchkey 49 MK3",
+      "weight": 4.0,
+      "length": 78.0,
+      "width": 26.0,
+      "country": "Китай",
+      "description": "Novation Launchkey 49 MK3 — это MIDI-контроллер с 49 чувствительными к скорости клавишами, 16 RGB-пэдов, 8 ручками и 9 фейдерами. Он идеально интегрируется с Ableton Live, но также совместим с другими DAW. Встроенные арпеджиатор, скейл-моды и аккордовые функции делают его мощным инструментом для создания музыки. Launchkey 49 MK3 — это баланс между функциональностью и удобством.",
+      "price": 249.0,
+      "quantity": 12,
+      "category": 2,
+      "sub_category": 7
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 63,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/Opera_Снимок_2020-03-16_160047_www.dj-store.ru.png",
+      "name": "Миди контроллер Arturia KeyLab Essential 61",
+      "weight": 3.0,
+      "length": 88.0,
+      "width": 25.0,
+      "country": "Франция",
+      "description": "Arturia KeyLab Essential 61 — это универсальный MIDI-контроллер с 61 клавишей, 8 пэдами, 9 фейдерами и 9 ручками. Он поставляется с Analog Lab — коллекцией более 6000 звуков, а также поддерживает DAW-контроль и Mackie/HUI протокол. Контроллер идеально подходит для студийной работы и живых выступлений, предлагая эргономичный дизайн и глубокую интеграцию с программным обеспечением.",
+      "price": 299.0,
+      "quantity": 10,
+      "category": 2,
+      "sub_category": 7
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 64,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/Opera_Снимок_2020-03-16_162039_www.dj-store.ru.png",
+      "name": "Миди контроллер Native Instruments Komplete Kontrol M32",
+      "weight": 1.5,
+      "length": 47.5,
+      "width": 17.0,
+      "country": "Китай",
+      "description": "Komplete Kontrol M32 — это компактный MIDI-контроллер от Native Instruments с 32 клавишами, 8 ручками и OLED-дисплеем. Он идеально интегрируется с Komplete и NKS-инструментами, а также поддерживает DAW-контроль. В комплекте — пакет программного обеспечения, включая Ableton Live Lite, Maschine Essentials и Komplete Start. Отличный выбор для продюсеров, работающих в ограниченном пространстве.",
+      "price": 139.0,
+      "quantity": 15,
+      "category": 2,
+      "sub_category": 7
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 65,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/Opera_Снимок_2020-03-16_160047_www.dj-store.ru.png",
+      "name": "Миди контроллер M-Audio Oxygen Pro 61",
+      "weight": 4.5,
+      "length": 95.0,
+      "width": 26.0,
+      "country": "Китай",
+      "description": "M-Audio Oxygen Pro 61 — это продвинутый MIDI-контроллер с 61 клавишей, 16 пэдами, 8 ручками и 9 фейдерами. Он предлагает глубокую интеграцию с DAW, автоматическое назначение параметров и поддержку Smart Chord/Smart Scale. В комплекте — пакет программного обеспечения, включая Ableton Live Lite, Hybrid 3 и другие. Отличный выбор для продвинутых пользователей и студийной работы.",
+      "price": 299.0,
+      "quantity": 9,
+      "category": 2,
+      "sub_category": 7
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 66,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/6BCC5DD8043729964D56FEBBDD104A1F.jpg",
+      "name": "Миди контроллер Alesis V49 MKII",
+      "weight": 3.5,
+      "length": 95.0,
+      "width": 24.0,
+      "country": "Китай",
+      "description": "Alesis V49 MKII — это MIDI-контроллер с 49 полноразмерными клавишами, 8 пэдами и 4 ручками. Он предлагает простую интеграцию с DAW, чувствительные к скорости элементы управления и стильный дизайн. В комплекте — программное обеспечение MPC Beats и виртуальные инструменты. Отличный выбор для начинающих и тех, кто ищет доступный, но функциональный контроллер.",
+      "price": 179.0,
+      "quantity": 14,
+      "category": 2,
+      "sub_category": 7
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 67,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/Opera_Снимок_2020-03-16_162039_www.dj-store.ru.png",
+      "name": "Миди контроллер Nektar Impact LX88+",
+      "weight": 6.0,
+      "length": 124.0,
+      "width": 27.0,
+      "country": "Китай",
+      "description": "Nektar Impact LX88+ — это полноразмерный MIDI-контроллер с 88 клавишами, 8 пэдами, 9 фейдерами и 8 ручками. Он предлагает глубокую интеграцию с DAW, включая Cubase, Logic, FL Studio и другие. Контроллер идеально подходит для тех, кто ищет полноценную клавиатуру с расширенными функциями управления. Отличный выбор для студийной работы и обучения.",
+      "price": 349.0,
+      "quantity": 6,
+      "category": 2,
+      "sub_category": 7
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 68,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/Opera_Снимок_2020-03-16_162039_www.dj-store.ru.png",
+      "name": "Миди контроллер Akai MPK261",
+      "weight": 7.5,
+      "length": 91.0,
+      "width": 33.0,
+      "country": "Китай",
+      "description": "Akai MPK261 — это профессиональный MIDI-контроллер с 61 клавишей, 16 пэдами, 8 ручками и 8 фейдерами. Он предлагает глубокую интеграцию с DAW, поддержку Mackie Control и множество функций для продюсеров. В комплекте — программное обеспечение MPC Essentials, Hybrid 3, SONiVOX и другие. MPK261 — это мощный инструмент для студии и сцены.",
+      "price": 499.0,
+      "quantity": 5,
+      "category": 2,
+      "sub_category": 7
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 69,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/6BCC5DD8043729964D56FEBBDD104A1F.jpg",
+      "name": "Миди контроллер CME Xkey 37",
+      "weight": 0.6,
+      "length": 55.0,
+      "width": 13.0,
+      "country": "Китай",
+      "description": "CME Xkey 37 — это ультракомпактный MIDI-контроллер с 37 клавишами, выполненными из алюминия. Он предлагает чувствительность к скорости и нажатию, а также поддержку Bluetooth MIDI. Идеально подходит для мобильных музыкантов и тех, кто работает в ограниченном пространстве. Совместим с iOS, Windows и macOS. Отличный выбор для путешествий и экспрессии.",
+      "price": 199.0,
+      "quantity": 8,
+      "category": 2,
+      "sub_category": 7
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 70,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/Opera_Снимок_2020-03-16_160047_www.dj-store.ru.png",
+      "name": "Миди контроллер Arturia BeatStep Pro",
+      "weight": 1.6,
+      "length": 36.0,
+      "width": 17.0,
+      "country": "Франция",
+      "description": "Arturia BeatStep Pro — это продвинутый секвенсор и MIDI-контроллер с 16 пэдами, 16 ручками и двумя независимыми секвенсорами. Он предлагает CV/Gate, MIDI и USB-интерфейсы, идеально подходящие для модульных систем, DAW и живых выступлений. BeatStep Pro — это мощный инструмент для ритмической и мелодической генерации, сочетающий компактность и функциональность.",
+      "price": 299.0,
+      "quantity": 7,
+      "category": 2,
+      "sub_category": 7
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 71,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/E35635406532BEF3CE453460939BF1EE.jpg",
+      "name": "Ударная установка Pearl Roadshow RS525SC",
+      "weight": 28.0,
+      "length": 120.0,
+      "width": 70.0,
+      "country": "Китай",
+      "description": "Pearl Roadshow RS525SC — это полноценная 5-частная ударная установка, идеально подходящая для начинающих и любителей. Комплект включает бас-барабан, томы, малый барабан, стойки, тарелки и даже табурет. Корпуса изготовлены из поплавкового дерева, обеспечивающего сбалансированное звучание. Установка отличается прочной фурнитурой, хорошей настройкой и стильной отделкой. Это доступный и надёжный старт для тех, кто хочет погрузиться в мир ударных инструментов.",
+      "price": 599.0,
+      "quantity": 10,
+      "category": 3,
+      "sub_category": 8
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 72,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/kahuna.jpeg",
+      "name": "Ударная установка Tama Imperialstar IE52C",
+      "weight": 30.0,
+      "length": 125.0,
+      "width": 75.0,
+      "country": "Китай",
+      "description": "Tama Imperialstar IE52C — это универсальная ударная установка, включающая 5 барабанов, стойки и тарелки Meinl HCS. Корпуса из тополя обеспечивают тёплое и сбалансированное звучание. Установка отличается надёжной фурнитурой, двойными стойками и удобной посадкой. Это отличный выбор для репетиций, студийной работы и живых выступлений, особенно для тех, кто ищет качественный комплект по разумной цене.",
+      "price": 799.0,
+      "quantity": 8,
+      "category": 3,
+      "sub_category": 8
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 73,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/1E5F2741D1AAC790615421AFBA2EB162.jpg",
+      "name": "Ударная установка Mapex Mars Series Rock Shell Pack",
+      "weight": 26.0,
+      "length": 130.0,
+      "width": 80.0,
+      "country": "Китай",
+      "description": "Mapex Mars Series Rock — это ударная установка без тарелок, ориентированная на рок-музыкантов. Корпуса из берёзы обеспечивают мощное и яркое звучание. Комплект включает бас-барабан, малый барабан и томы, а также стойки. Установка отличается стильной отделкой, надёжной фурнитурой и отличной динамикой. Идеально подходит для тех, кто хочет собрать индивидуальный комплект с профессиональным звучанием.",
+      "price": 699.0,
+      "quantity": 6,
+      "category": 3,
+      "sub_category": 8
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 74,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/peaceparagon.jpg",
+      "name": "Ударная установка Gretsch Catalina Club Jazz",
+      "weight": 24.0,
+      "length": 110.0,
+      "width": 65.0,
+      "country": "Китай",
+      "description": "Gretsch Catalina Club Jazz — это компактная ударная установка, идеально подходящая для джазовых и акустических сетов. Корпуса из махагони обеспечивают тёплое, резонансное звучание. Комплект включает бас-барабан, малый барабан, том и флоор-том. Установка отличается винтажным стилем, компактностью и отличной отзывчивостью. Это выбор музыкантов, ценящих классическое звучание и мобильность.",
+      "price": 799.0,
+      "quantity": 7,
+      "category": 3,
+      "sub_category": 8
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 75,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/peaceparagon.jpg",
+      "name": "Ударная установка Ludwig Element Evolution",
+      "weight": 32.0,
+      "length": 135.0,
+      "width": 78.0,
+      "country": "США",
+      "description": "Ludwig Element Evolution — это ударная установка начального уровня с профессиональными характеристиками. В комплект входят 5 барабанов, стойки, тарелки Zildjian и табурет. Корпуса из тополя обеспечивают сбалансированное звучание, а фурнитура Ludwig гарантирует надёжность. Установка идеально подходит для обучения, репетиций и первых выступлений, сочетая доступность и качество.",
+      "price": 899.0,
+      "quantity": 5,
+      "category": 3,
+      "sub_category": 8
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 76,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/peaceparagon.jpg",
+      "name": "Ударная установка Sonor AQX Stage Set",
+      "weight": 29.0,
+      "length": 125.0,
+      "width": 72.0,
+      "country": "Германия",
+      "description": "Sonor AQX Stage — это ударная установка с корпусами из поплавкового дерева, обеспечивающими яркое и сбалансированное звучание. Комплект включает 5 барабанов, стойки и тарелки. Установка отличается немецким качеством сборки, надёжной фурнитурой и стильным дизайном. Это отличный выбор для начинающих и продвинутых музыкантов, ищущих надёжный инструмент для сцены и студии.",
+      "price": 849.0,
+      "quantity": 9,
+      "category": 3,
+      "sub_category": 8
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 77,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/kahuna.jpeg",
+      "name": "Ударная установка DW Design Series 5-Piece",
+      "weight": 34.0,
+      "length": 140.0,
+      "width": 80.0,
+      "country": "США",
+      "description": "DW Design Series — это профессиональная ударная установка с корпусами из клёна, обеспечивающими мощное и динамичное звучание. Комплект включает 5 барабанов, без тарелок и стоек. Установка отличается фирменной фурнитурой DW, стильной отделкой и высокой чувствительностью. Это выбор профессионалов, ценящих качество, надёжность и выразительность.",
+      "price": 1599.0,
+      "quantity": 3,
+      "category": 3,
+      "sub_category": 8
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 78,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/kahuna.jpeg",
+      "name": "Ударная установка Pearl Export EXX725S",
+      "weight": 31.0,
+      "length": 130.0,
+      "width": 76.0,
+      "country": "Китай",
+      "description": "Pearl Export EXX725S — это обновлённая версия легендарной серии Export. Корпуса из тополя и махагони обеспечивают мощное и сбалансированное звучание. Комплект включает 5 барабанов, стойки и тарелки. Установка отличается надёжной фурнитурой, стильным дизайном и отличной отзывчивостью. Это универсальный комплект для репетиций, студии и сцены.",
+      "price": 999.0,
+      "quantity": 6,
+      "category": 3,
+      "sub_category": 8
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 79,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/E35635406532BEF3CE453460939BF1EE.jpg",
+      "name": "Ударная установка Yamaha Stage Custom Birch",
+      "weight": 28.0,
+      "length": 128.0,
+      "width": 74.0,
+      "country": "Индонезия",
+      "description": "Yamaha Stage Custom Birch — это ударная установка с корпусами из берёзы, обеспечивающими яркое и чёткое звучание. Комплект включает 5 барабанов, стойки, но без тарелок. Установка отличается качественной фурнитурой Yamaha, стильной отделкой и отличной динамикой. Это выбор для тех, кто ищет надёжный и выразительный инструмент для сцены и студии.",
+      "price": 1099.0,
+      "quantity": 4,
+      "category": 3,
+      "sub_category": 8
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 80,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/kahuna.jpeg",
+      "name": "Ударная установка Alesis Nitro Mesh Kit",
+      "weight": 12.0,
+      "length": 100.0,
+      "width": 60.0,
+      "country": "Китай",
+      "description": "Alesis Nitro Mesh Kit — это электронная ударная установка с сетчатыми пэдами, обеспечивающими реалистичное ощущение игры. В комплект входят 8 пэдов, модуль с 385 звуками, стойки, педали и наушники. Установка идеально подходит для домашнего обучения, записи и тихих репетиций. Благодаря компактности и функциональности, Nitro Mesh Kit стал популярным выбором среди начинающих и продвинутых барабанщиков.",
+      "price": 449.0,
+      "quantity": 15,
+      "category": 3,
+      "sub_category": 8
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 81,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/9940_tz.jpg",
+      "name": "Цифровая ударная установка Roland TD-17KVX2",
+      "weight": 23.0,
+      "length": 120.0,
+      "width": 80.0,
+      "country": "Малайзия",
+      "description": "Roland TD-17KVX2 — это продвинутая цифровая ударная установка с реалистичными пэдами и модулем TD-17. Она оснащена сетчатыми пэдами для малого барабана и томов, тарелками с несколькими зонами и педалью хай-хэта. Модуль предлагает более 300 звуков, Bluetooth, тренировочные функции и возможность загрузки пользовательских семплов. TD-17KVX2 идеально подходит для домашних занятий, студийной записи и живых выступлений, сочетая реализм и гибкость.",
+      "price": 1999.0,
+      "quantity": 6,
+      "category": 3,
+      "sub_category": 9
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 82,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/Soundking_SKD230.jpg",
+      "name": "Цифровая ударная установка Alesis Nitro Max",
+      "weight": 12.5,
+      "length": 100.0,
+      "width": 65.0,
+      "country": "Китай",
+      "description": "Alesis Nitro Max — это доступная цифровая ударная установка с сетчатыми пэдами, обеспечивающими комфортную и тихую игру. В комплект входят 8-дюймовые пэды, три тарелки, педали и модуль с 440 звуками, 60 встроенными треками и Bluetooth. Установка идеально подходит для начинающих и тех, кто хочет практиковаться дома без лишнего шума. Простая сборка и компактность делают её удобной для небольших помещений.",
+      "price": 449.0,
+      "quantity": 15,
+      "category": 3,
+      "sub_category": 9
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 83,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/SKD600_soundking.jpeg",
+      "name": "Цифровая ударная установка Yamaha DTX6K3-X",
+      "weight": 24.0,
+      "length": 125.0,
+      "width": 75.0,
+      "country": "Индонезия",
+      "description": "Yamaha DTX6K3-X — это цифровая ударная установка среднего уровня с модулем DTX-PRO, предлагающим богатую библиотеку звуков и встроенные эффекты. Сетчатые пэды, 3-зонные тарелки и реалистичная педаль хай-хэта обеспечивают отличную динамику и отзывчивость. Установка поддерживает запись, тренировочные режимы и подключение к DAW. Это идеальный выбор для продвинутых учеников и домашних студий.",
+      "price": 1599.0,
+      "quantity": 8,
+      "category": 3,
+      "sub_category": 9
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 84,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/SKD600_soundking.jpeg",
+      "name": "Цифровая ударная установка Millenium MPS-1000",
+      "weight": 28.0,
+      "length": 130.0,
+      "width": 80.0,
+      "country": "Китай",
+      "description": "Millenium MPS-1000 — это цифровая ударная установка с акустическим внешним видом и цифровым функционалом. Все пэды имеют сетчатую поверхность, а модуль предлагает более 900 звуков, 55 пресетов и возможность подключения USB и MIDI. Установка включает стойки, педали и тарелки с несколькими зонами. Отличный выбор для тех, кто хочет внешний вид акустики с преимуществами цифровых технологий.",
+      "price": 999.0,
+      "quantity": 10,
+      "category": 3,
+      "sub_category": 9
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 85,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/LDrums_MK-7X-red.jpg",
+      "name": "Цифровая ударная установка Roland VAD307",
+      "weight": 35.0,
+      "length": 140.0,
+      "width": 85.0,
+      "country": "Малайзия",
+      "description": "Roland VAD307 — это цифровая ударная установка с акустическим дизайном и модулем TD-17. Она оснащена полноразмерными корпусами, сетчатыми пэдами и тарелками с несколькими зонами. Модуль предлагает реалистичное моделирование, Bluetooth, тренировочные функции и возможность загрузки пользовательских звуков. VAD307 — это идеальный гибрид для тех, кто хочет внешний вид и ощущение акустики с цифровыми возможностями.",
+      "price": 2699.0,
+      "quantity": 4,
+      "category": 3,
+      "sub_category": 9
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 86,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/Soundking_SKD230.jpg",
+      "name": "Цифровая ударная установка Alesis Strike Pro SE",
+      "weight": 38.0,
+      "length": 145.0,
+      "width": 90.0,
+      "country": "Китай",
+      "description": "Alesis Strike Pro SE — это флагманская цифровая ударная установка с полноразмерными деревянными корпусами и сетчатыми пэдами. Модуль Strike предлагает более 136 комплектов, 1800 звуков, 8 выходов и возможность записи. Установка включает 14-дюймовый малый барабан, 20-дюймовый бас-барабан и тарелки с несколькими зонами. Это профессиональный инструмент для сцены, студии и продвинутых барабанщиков.",
+      "price": 2799.0,
+      "quantity": 3,
+      "category": 3,
+      "sub_category": 9
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 87,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/DM-7X__Nux.jpg",
+      "name": "Цифровая ударная установка Yamaha DTX402K",
+      "weight": 11.0,
+      "length": 95.0,
+      "width": 60.0,
+      "country": "Индонезия",
+      "description": "Yamaha DTX402K — это компактная цифровая ударная установка начального уровня. Она оснащена резиновыми пэдами, модулем с 287 звуками, 10 пресетами и 10 пользовательскими наборами. Встроенные тренировочные функции, метроном и возможность подключения к приложению DTX402 Touch делают её отличным выбором для начинающих. Установка лёгкая, компактная и проста в использовании.",
+      "price": 399.0,
+      "quantity": 14,
+      "category": 3,
+      "sub_category": 9
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 88,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/Soundking_SKD230.jpg",
+      "name": "Цифровая ударная установка Donner DED-200",
+      "weight": 13.0,
+      "length": 102.0,
+      "width": 65.0,
+      "country": "Китай",
+      "description": "Donner DED-200 — это цифровая ударная установка с сетчатыми пэдами, модулем с 225 звуками, 30 пресетами и возможностью подключения к компьютеру через USB. В комплект входят педали, стойки и наушники. Установка идеально подходит для домашних занятий, обучения и записи. Компактный дизайн и доступная цена делают её привлекательной для начинающих и любителей.",
+      "price": 499.0,
+      "quantity": 11,
+      "category": 3,
+      "sub_category": 9
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 89,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/9940_tz.jpg",
+      "name": "Цифровая ударная установка NUX DM-8",
+      "weight": 20.0,
+      "length": 120.0,
+      "width": 70.0,
+      "country": "Китай",
+      "description": "NUX DM-8 — это цифровая ударная установка с полноразмерными сетчатыми пэдами, 3-зонными тарелками и модулем с 232 звуками. Она предлагает тренировочные режимы, запись, Bluetooth и USB-аудио. Установка отличается стабильной стойкой, реалистичной динамикой и отличной отзывчивостью. Это универсальный инструмент для занятий, студии и живых выступлений.",
+      "price": 899.0,
+      "quantity": 7,
+      "category": 3,
+      "sub_category": 9
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 90,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/LDrums_MK-7X-red.jpg",
+      "name": "Цифровая ударная установка GEWA G9 Pro 5",
+      "weight": 40.0,
+      "length": 150.0,
+      "width": 90.0,
+      "country": "Германия",
+      "description": "GEWA G9 Pro 5 — это премиальная цифровая ударная установка с модулем G9, предлагающим сенсорный экран, многослойные сэмплы и студийное качество звука. Все пэды имеют сетчатую поверхность, а тарелки — многозонные. Установка поддерживает запись, Bluetooth, MIDI и USB. Это профессиональный инструмент для студийной работы, сцены и продвинутых пользователей, ценящих качество и инновации.",
+      "price": 4499.0,
+      "quantity": 2,
+      "category": 3,
+      "sub_category": 9
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 91,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/ACCBEB8FDCEBA9B93E4689A67F7BAA55.jpg",
+      "name": "Перкуссия Meinl Headliner Series Cajon",
+      "weight": 4.5,
+      "length": 50.0,
+      "width": 30.0,
+      "country": "Таиланд",
+      "description": "Meinl Headliner Series Cajon — это перкуссионный инструмент с корпусом из МДФ и передней панелью из дерева. Он оснащён встроенными струнами, создающими эффект малого барабана, и имеет резонансное отверстие сзади. Cajon идеально подходит для акустических сетов, уличных выступлений и репетиций. Его компактность, выразительное звучание и удобство делают его популярным выбором среди перкуссионистов и вокалистов.",
+      "price": 139.0,
+      "quantity": 12,
+      "category": 3,
+      "sub_category": 10
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 92,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/5E3EADED2AC6E6B587A6BE1F3DFCBDC0.jpg",
+      "name": "Перкуссия LP Aspire Bongos",
+      "weight": 3.2,
+      "length": 45.0,
+      "width": 25.0,
+      "country": "Таиланд",
+      "description": "LP Aspire Bongos — это пара традиционных кубинских барабанов с корпусами из сиамского дуба и натуральными кожаными мембранами. Диаметры 6¾ и 8 дюймов обеспечивают широкий диапазон тонов. Хромированная фурнитура и надёжная система натяжения делают их идеальными для латинской музыки, джаза и фьюжн. Bongos легко транспортировать, они отлично подходят для живых выступлений и студийной записи.",
+      "price": 109.0,
+      "quantity": 15,
+      "category": 3,
+      "sub_category": 10
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 93,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/323BCF9EBE1D15B54D540E1CB2759EFE.jpg",
+      "name": "Перкуссия Schlagwerk CP404 Cajon",
+      "weight": 4.0,
+      "length": 49.0,
+      "width": 30.0,
+      "country": "Германия",
+      "description": "Schlagwerk CP404 — это немецкий cajon с корпусом из берёзы и передней панелью из бука. Он оснащён специальной системой струн, обеспечивающей чёткий щелчок и глубокий бас. Этот инструмент отличается высоким качеством сборки, стильным дизайном и выразительным звуком. Идеален для акустических сетов, фолка и поп-музыки. Schlagwerk — один из самых уважаемых брендов в мире перкуссии.",
+      "price": 189.0,
+      "quantity": 8,
+      "category": 3,
+      "sub_category": 10
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 94,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/323BCF9EBE1D15B54D540E1CB2759EFE.jpg",
+      "name": "Перкуссия Remo Fiberskyn Djembe 12\"",
+      "weight": 3.8,
+      "length": 60.0,
+      "width": 35.0,
+      "country": "США",
+      "description": "Remo Fiberskyn Djembe — это лёгкий и прочный джембе с синтетической мембраной Fiberskyn, устойчивой к погодным условиям. Корпус изготовлен из Acousticon — запатентованного материала Remo. Диаметр 12 дюймов обеспечивает мощный бас и яркие слэпы. Идеален для уличных выступлений, этнической музыки и групповых занятий. Remo предлагает надёжность и стабильность звучания в любых условиях.",
+      "price": 229.0,
+      "quantity": 10,
+      "category": 3,
+      "sub_category": 10
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 95,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/FB3DA3B18F6E07D6ACD6913573D50410.jpg",
+      "name": "Перкуссия Tycoon Percussion Conga Set",
+      "weight": 14.0,
+      "length": 75.0,
+      "width": 40.0,
+      "country": "Таиланд",
+      "description": "Tycoon Percussion Conga Set — это комплект из двух конг диаметром 10 и 11 дюймов. Корпуса из сиамского дуба и натуральные мембраны обеспечивают насыщенное, глубокое звучание. Хромированная фурнитура и регулируемые стойки входят в комплект. Эти конги идеально подходят для латинской музыки, джаза и фьюжн. Высокое качество сборки делает их надёжным выбором для сцены и студии.",
+      "price": 399.0,
+      "quantity": 6,
+      "category": 3,
+      "sub_category": 10
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 96,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/FB3DA3B18F6E07D6ACD6913573D50410.jpg",
+      "name": "Перкуссия Meinl Sonic Energy Steel Tongue Drum",
+      "weight": 2.5,
+      "length": 35.0,
+      "width": 35.0,
+      "country": "Китай",
+      "description": "Meinl Steel Tongue Drum — это мелодическая перкуссия с 9 язычками, настроенными в определённую гамму. Изготовлен из стали, покрыт порошковой краской, устойчивой к царапинам. Звук мягкий, медитативный, идеально подходит для йоги, релаксации и саунд-хиллинга. В комплекте — сумка и палочки. Этот инструмент популярен среди терапевтов и музыкантов, работающих с атмосферными текстурами.",
+      "price": 189.0,
+      "quantity": 9,
+      "category": 3,
+      "sub_category": 10
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 97,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/359F7A4AAE70BE80BD55EDDA72C73736.jpg",
+      "name": "Перкуссия LP Matador Timbales",
+      "weight": 7.0,
+      "length": 60.0,
+      "width": 35.0,
+      "country": "США",
+      "description": "LP Matador Timbales — это латинские барабаны диаметром 14 и 15 дюймов, изготовленные из стали. Они обеспечивают яркое, металлическое звучание, идеально подходящее для сальсы, меренге и латино-джаза. В комплекте — стойка, палочки и ковбелл. Timbales — это выразительный инструмент, часто используемый в оркестрах и ансамблях. LP — один из лидеров в производстве латинской перкуссии.",
+      "price": 349.0,
+      "quantity": 5,
+      "category": 3,
+      "sub_category": 10
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 98,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/323BCF9EBE1D15B54D540E1CB2759EFE.jpg",
+      "name": "Перкуссия Meinl Turbo Slap-Top Cajon",
+      "weight": 3.6,
+      "length": 45.0,
+      "width": 30.0,
+      "country": "Таиланд",
+      "description": "Meinl Turbo Slap-Top Cajon — это инновационный cajon, который размещается на коленях и позволяет играть сверху. Он оснащён встроенными струнами, двумя зонами для баса и щелчка, а также резонансным отверстием. Компактный, удобный и выразительный, он идеально подходит для уличных выступлений, акустических сетов и путешествий. Meinl предлагает уникальный подход к классическому формату.",
+      "price": 159.0,
+      "quantity": 11,
+      "category": 3,
+      "sub_category": 10
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 99,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/323BCF9EBE1D15B54D540E1CB2759EFE.jpg",
+      "name": "Перкуссия Remo Ocean Drum",
+      "weight": 1.2,
+      "length": 35.0,
+      "width": 35.0,
+      "country": "США",
+      "description": "Remo Ocean Drum — это атмосферный перкуссионный инструмент, имитирующий звук океанских волн. Он состоит из двух прозрачных мембран, между которыми находятся металлические шарики. При наклоне создаётся эффект прибоя. Идеален для театра, медитации, саунд-дизайна и этнической музыки. Remo предлагает качественную сборку и устойчивые материалы, подходящие для профессионального использования.",
+      "price": 89.0,
+      "quantity": 13,
+      "category": 3,
+      "sub_category": 10
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 100,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/FB3DA3B18F6E07D6ACD6913573D50410.jpg",
+      "name": "Перкуссия Meinl Professional Shekere",
+      "weight": 0.9,
+      "length": 30.0,
+      "width": 30.0,
+      "country": "Таиланд",
+      "description": "Meinl Shekere — это традиционный африканский перкуссионный инструмент, изготовленный из пластика с сеткой из бусин. Он обеспечивает яркое, ритмичное звучание и используется в афро-кубинской, бразильской и этнической музыке. Удобная форма и прочные материалы делают его идеальным для сцены и студии. Meinl предлагает надёжность и выразительность в компактном формате.",
+      "price": 69.0,
+      "quantity": 14,
+      "category": 3,
+      "sub_category": 10
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 101,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/peace-dhe-105-13.jpg",
+      "name": "Комплектующий DW 5000 Series Bass Drum Pedal",
+      "weight": 3.5,
+      "length": 40.0,
+      "width": 20.0,
+      "country": "США",
+      "description": "DW 5000 Series — это профессиональная педаль для бас-барабана, известная своей надёжностью и плавным ходом. Оснащена цепным приводом, регулируемым углом колотушки и платформой с антискользящим покрытием. Идеально подходит для интенсивной игры в роке, металле и джазе. DW 5000 — выбор многих профессиональных барабанщиков благодаря своей прочности и отзывчивости.",
+      "price": 299.0,
+      "quantity": 10,
+      "category": 3,
+      "sub_category": 11
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 102,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/10100_tz.jpg",
+      "name": "Комплектующий Tama Iron Cobra 200 Hi-Hat Stand",
+      "weight": 4.2,
+      "length": 55.0,
+      "width": 25.0,
+      "country": "Китай",
+      "description": "Tama Iron Cobra 200 — это надёжная стойка для хай-хэта с цепным приводом и двойными ножками. Обеспечивает стабильность, плавную работу и точную настройку. Подходит как для начинающих, так и для профессионалов. Стойка легко складывается и транспортируется, а её конструкция выдерживает интенсивную игру на сцене и в студии.",
+      "price": 139.0,
+      "quantity": 12,
+      "category": 3,
+      "sub_category": 11
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 103,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/A2A5D621E30C7F2E5F50179A65705210.jpg",
+      "name": "Комплектующий Pearl S-930 Snare Stand",
+      "weight": 3.0,
+      "length": 50.0,
+      "width": 25.0,
+      "country": "Китай",
+      "description": "Pearl S-930 — это стойка для малого барабана с двойными ножками и универсальным держателем. Обеспечивает надёжную фиксацию и устойчивость даже при агрессивной игре. Регулируемая высота и наклон позволяют настроить комфортную посадку. Отличный выбор для репетиций, концертов и студийной работы. Pearl — один из лидеров в производстве фурнитуры для ударных.",
+      "price": 109.0,
+      "quantity": 14,
+      "category": 3,
+      "sub_category": 11
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 104,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/5EE819299DF64A8CD17B768354A6A7AF.jpg",
+      "name": "Комплектующий Meinl Cymbal Boom Stand BMS",
+      "weight": 4.0,
+      "length": 90.0,
+      "width": 20.0,
+      "country": "Таиланд",
+      "description": "Meinl BMS — это стойка для тарелок с выносным держателем и двойными ножками. Обеспечивает гибкость установки и устойчивость. Подходит для крэш, райд и эффектных тарелок. Хромированная отделка и надёжные замки делают её долговечной и удобной в использовании. Meinl предлагает качественную фурнитуру для профессиональных и любительских установок.",
+      "price": 129.0,
+      "quantity": 11,
+      "category": 3,
+      "sub_category": 11
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 105,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/10100_tz.jpg",
+      "name": "Комплектующий Remo Ambassador Coated 14\" Drumhead",
+      "weight": 0.2,
+      "length": 36.0,
+      "width": 36.0,
+      "country": "США",
+      "description": "Remo Ambassador Coated — это универсальная пластиковая мембрана диаметром 14 дюймов, подходящая для малого барабана. Обеспечивает сбалансированное звучание с яркой атакой и тёплым сустейном. Покрытие позволяет использовать щётки и палочки. Мембрана подходит для различных стилей — от джаза до рока. Remo — один из самых уважаемых брендов в мире мембран.",
+      "price": 19.0,
+      "quantity": 25,
+      "category": 3,
+      "sub_category": 11
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 106,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/5EE819299DF64A8CD17B768354A6A7AF.jpg",
+      "name": "Комплектующий Evans EMAD2 Clear Bass Drum Head 22\"",
+      "weight": 0.6,
+      "length": 58.0,
+      "width": 58.0,
+      "country": "США",
+      "description": "Evans EMAD2 — это двухслойная мембрана для бас-барабана диаметром 22 дюйма с регулируемым демпфированием. Обеспечивает мощный удар, чёткую атаку и контроль над сустейном. В комплекте — два демпфирующих кольца. Мембрана идеально подходит для рока, металла и попа. Evans — лидер в производстве инновационных мембран для ударных.",
+      "price": 49.0,
+      "quantity": 18,
+      "category": 3,
+      "sub_category": 11
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 107,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/peace-dhe-105-13.jpg",
+      "name": "Комплектующий Gibraltar SC-GR-4C Drum Rack Clamp",
+      "weight": 0.3,
+      "length": 10.0,
+      "width": 5.0,
+      "country": "Китай",
+      "description": "Gibraltar SC-GR-4C — это универсальный зажим для барабанных стоек и рэков. Изготовлен из прочного металла, обеспечивает надёжную фиксацию элементов установки. Подходит для крепления томов, тарелок и аксессуаров. Компактный, лёгкий и удобный в использовании. Gibraltar — известный производитель фурнитуры, ценимый за надёжность и совместимость.",
+      "price": 15.0,
+      "quantity": 30,
+      "category": 3,
+      "sub_category": 11
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 108,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/e0x4w6puwvswo040g8w00wow0.jpg",
+      "name": "Комплектующий Vic Firth American Classic 5A Drumsticks",
+      "weight": 0.1,
+      "length": 42.0,
+      "width": 2.0,
+      "country": "США",
+      "description": "Vic Firth 5A — это классические барабанные палочки из американского хикори, подходящие для большинства стилей. Обеспечивают отличную балансировку, комфортную посадку и долговечность. Универсальный наконечник в форме капли даёт чёткий звук на тарелках и мембранах. Vic Firth — один из самых популярных брендов среди барабанщиков по всему миру.",
+      "price": 14.0,
+      "quantity": 40,
+      "category": 3,
+      "sub_category": 11
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 109,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/e0x4w6puwvswo040g8w00wow0.jpg",
+      "name": "Комплектующий Tama QC8 Quick-Set Cymbal Mate",
+      "weight": 0.05,
+      "length": 5.0,
+      "width": 5.0,
+      "country": "Китай",
+      "description": "Tama QC8 — это быстросъёмный фиксатор для тарелок, позволяющий легко устанавливать и снимать их без резьбы. Изготовлен из прочного пластика, совместим с большинством стоек. Удобен для живых выступлений и быстрой настройки. Tama предлагает инновационные решения для комфорта и скорости работы с ударной установкой.",
+      "price": 9.0,
+      "quantity": 50,
+      "category": 3,
+      "sub_category": 11
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 110,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/10100_tz.jpg",
+      "name": "Комплектующий LP Percussion Mounting Bracket LP236A",
+      "weight": 0.4,
+      "length": 12.0,
+      "width": 6.0,
+      "country": "США",
+      "description": "LP LP236A — это крепёжный кронштейн для перкуссионных инструментов, таких как ковбеллы, блоки и шейкеры. Изготовлен из хромированной стали, обеспечивает надёжную фиксацию и совместимость с большинством стоек. Идеален для расширения ударной установки и интеграции перкуссии. LP — признанный лидер в производстве аксессуаров для ударных.",
+      "price": 29.0,
+      "quantity": 20,
+      "category": 3,
+      "sub_category": 11
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 111,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/6436_Focusrite-Scarlett-2i2.800x600w.jpg",
+      "name": "Аудио интерфейс Focusrite Scarlett 2i2 4th Gen",
+      "weight": 0.47,
+      "length": 17.5,
+      "width": 10.0,
+      "country": "Китай",
+      "description": "Focusrite Scarlett 2i2 4th Gen — это компактный USB-аудиоинтерфейс с двумя комбинированными входами XLR/Jack и двумя линейными выходами. Он предлагает высококачественные предусилители с функцией Air, 24-бит/192 кГц конвертацию и низкую задержку. Идеален для домашней студии, подкастинга и мобильной записи. Scarlett 2i2 — один из самых популярных интерфейсов благодаря надёжности, простоте использования и отличному звуку.",
+      "price": 179.0,
+      "quantity": 20,
+      "category": 4,
+      "sub_category": 12
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 112,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/6436_Focusrite-Scarlett-2i2.800x600w.jpg",
+      "name": "Аудио интерфейс Universal Audio Apollo Twin X DUO",
+      "weight": 1.0,
+      "length": 16.0,
+      "width": 14.0,
+      "country": "США",
+      "description": "Apollo Twin X DUO — это профессиональный аудиоинтерфейс с подключением Thunderbolt 3, двумя предусилителями и встроенным DSP-процессором для работы с плагинами UAD в реальном времени. Он обеспечивает студийное качество записи, поддержку до 24-бит/192 кГц и низкую задержку. Идеален для продюсеров, вокалистов и гитаристов, работающих в Logic, Pro Tools и других DAW. Компактный, стильный и мощный.",
+      "price": 899.0,
+      "quantity": 6,
+      "category": 4,
+      "sub_category": 12
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 113,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/6436_Focusrite-Scarlett-2i2.800x600w.jpg",
+      "name": "Аудио интерфейс Audient iD14 MKII",
+      "weight": 1.25,
+      "length": 17.3,
+      "width": 12.0,
+      "country": "Великобритания",
+      "description": "Audient iD14 MKII — это USB-C аудиоинтерфейс с двумя предусилителями класса A, одним JFET-инструментальным входом и оптическим входом ADAT. Он предлагает высококачественную конвертацию, низкую задержку и прочный металлический корпус. Идеален для записи вокала, гитары и расширения через ADAT. Audient славится чистым звуком и надёжной архитектурой, подходящей как для дома, так и для профессиональной студии.",
+      "price": 299.0,
+      "quantity": 10,
+      "category": 4,
+      "sub_category": 12
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 114,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/OnyxArtist12-large_jpg.jpg",
+      "name": "Аудио интерфейс Steinberg UR22C",
+      "weight": 1.0,
+      "length": 15.9,
+      "width": 15.0,
+      "country": "Китай",
+      "description": "Steinberg UR22C — это USB 3.0 аудиоинтерфейс с двумя комбинированными входами, MIDI-входом/выходом и поддержкой 32-бит/192 кГц. Он совместим с Windows, macOS и iOS, поставляется с Cubase AI и Cubasis LE. Металлический корпус, надёжные предусилители и стабильная работа делают его отличным выбором для мобильной и домашней студии. UR22C — это баланс между качеством и доступностью.",
+      "price": 189.0,
+      "quantity": 14,
+      "category": 4,
+      "sub_category": 12
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 115,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/OnyxArtist12-large_jpg.jpg",
+      "name": "Аудио интерфейс MOTU M2",
+      "weight": 0.7,
+      "length": 19.0,
+      "width": 11.0,
+      "country": "США",
+      "description": "MOTU M2 — это USB-C аудиоинтерфейс с двумя входами и двумя выходами, цветным LCD-дисплеем и поддержкой 24-бит/192 кГц. Он предлагает ультранизкую задержку, качественные предусилители и стабильную работу с Windows и macOS. Идеален для записи вокала, инструментов и подкастов. MOTU M2 — это профессиональное качество в компактном корпусе, подходящее как для новичков, так и для опытных звукорежиссёров.",
+      "price": 229.0,
+      "quantity": 12,
+      "category": 4,
+      "sub_category": 12
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 116,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/6436_Focusrite-Scarlett-2i2.800x600w.jpg",
+      "name": "Аудио интерфейс PreSonus Studio 24c",
+      "weight": 0.45,
+      "length": 18.0,
+      "width": 14.0,
+      "country": "Китай",
+      "description": "PreSonus Studio 24c — это USB-C аудиоинтерфейс с двумя входами и двумя выходами, MIDI-интерфейсом и поддержкой 24-бит/192 кГц. В комплекте — Studio One Artist и Studio Magic Plug-in Suite. Устройство предлагает качественные предусилители, низкую задержку и надёжную работу. Отличный выбор для начинающих музыкантов, подкастеров и домашних студий. PreSonus — это стабильность и удобство.",
+      "price": 159.0,
+      "quantity": 18,
+      "category": 4,
+      "sub_category": 12
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 117,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/Livejack_Lite_Donner,.jpg",
+      "name": "Аудио интерфейс Behringer UMC404HD",
+      "weight": 1.2,
+      "length": 29.0,
+      "width": 14.0,
+      "country": "Китай",
+      "description": "Behringer UMC404HD — это USB-аудиоинтерфейс с четырьмя комбинированными входами, четырьмя выходами, MIDI-интерфейсом и поддержкой 24-бит/192 кГц. Он оснащён предусилителями MIDAS, обеспечивает стабильную работу и совместим с большинством DAW. Идеален для многоканальной записи, репетиций и подкастов. Behringer предлагает отличное соотношение цены и функциональности.",
+      "price": 139.0,
+      "quantity": 16,
+      "category": 4,
+      "sub_category": 12
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 118,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/MACKIE_Onyx_Producer.jpg",
+      "name": "Аудио интерфейс RME Babyface Pro FS",
+      "weight": 0.5,
+      "length": 18.0,
+      "width": 13.0,
+      "country": "Германия",
+      "description": "RME Babyface Pro FS — это премиальный USB-аудиоинтерфейс с двумя микрофонными входами, двумя линейными входами, ADAT и MIDI. Он предлагает ультранизкую задержку, высокоточные конвертеры и надёжную работу с TotalMix FX. Подходит для профессиональной студии, мобильной записи и живых выступлений. RME — это эталон надёжности и качества в мире аудиоинтерфейсов.",
+      "price": 899.0,
+      "quantity": 5,
+      "category": 4,
+      "sub_category": 12
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 119,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/MACKIE_Onyx_Producer.jpg",
+      "name": "Аудио интерфейс SSL 2+ Audio Interface",
+      "weight": 0.8,
+      "length": 23.0,
+      "width": 13.0,
+      "country": "Китай",
+      "description": "SSL 2+ — это USB-аудиоинтерфейс от легендарной компании Solid State Logic. Он оснащён двумя предусилителями с Legacy 4K режимом, двумя выходами, MIDI и двумя наушниковыми выходами. Поддерживает 24-бит/192 кГц, поставляется с пакетом SSL Production Pack. Идеален для записи вокала, инструментов и подкастов. SSL 2+ — это студийное качество в доступном формате.",
+      "price": 299.0,
+      "quantity": 9,
+      "category": 4,
+      "sub_category": 12
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 120,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/Routist_RS_Midiplus,,.jpg",
+      "name": "Аудио интерфейс Antelope Audio Zen Go Synergy Core",
+      "weight": 0.4,
+      "length": 16.5,
+      "width": 11.5,
+      "country": "Болгария",
+      "description": "Antelope Zen Go — это USB-C аудиоинтерфейс с двумя предусилителями, встроенными эффектами Synergy Core и поддержкой 24-бит/192 кГц. Он предлагает высококачественную конвертацию, низкую задержку и питание по USB. Идеален для мобильной студии, вокала и гитары. Antelope — это инновации, качество и мощные DSP-эффекты в компактном корпусе.",
+      "price": 499.0,
+      "quantity": 7,
+      "category": 4,
+      "sub_category": 12
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 121,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/86BA8F41BD326905D6A390AFCFDE89B9.jpg",
+      "name": "Студийные мониторы Yamaha HS8",
+      "weight": 10.2,
+      "length": 33.0,
+      "width": 25.0,
+      "country": "Индонезия",
+      "description": "Yamaha HS8 — это активный студийный монитор с 8-дюймовым вуфером и 1-дюймовым твитером, обеспечивающий точную и линейную передачу звука. Он предлагает мощность 120 Вт и частотный диапазон от 38 Гц до 30 кГц. HS8 известен своей прозрачностью и отсутствием окраски, что делает его идеальным для микширования и мастеринга. Прочный корпус и стильный дизайн дополняют его профессиональные характеристики. Это один из самых популярных мониторов в мире студийного звука.",
+      "price": 299.0,
+      "quantity": 12,
+      "category": 4,
+      "sub_category": 13
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 122,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/10242_tz.jpg",
+      "name": "Студийные мониторы KRK Rokit 5 G4",
+      "weight": 4.85,
+      "length": 29.0,
+      "width": 19.0,
+      "country": "Китай",
+      "description": "KRK Rokit 5 G4 — это активный студийный монитор с 5-дюймовым вуфером и встроенным DSP-эквалайзером. Он предлагает мощность 55 Вт и частотный диапазон от 43 Гц до 40 кГц. Цветной LCD-дисплей позволяет точно настраивать звучание под помещение. Корпус из композитных материалов и фирменный жёлтый динамик делают его узнаваемым. Отличный выбор для домашних студий и продюсеров, ценящих гибкость и современный функционал.",
+      "price": 179.0,
+      "quantity": 15,
+      "category": 4,
+      "sub_category": 13
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 123,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/86BA8F41BD326905D6A390AFCFDE89B9.jpg",
+      "name": "Студийные мониторы Adam Audio T7V",
+      "weight": 7.1,
+      "length": 34.0,
+      "width": 21.0,
+      "country": "Германия",
+      "description": "Adam Audio T7V — это двухполосный активный монитор с 7-дюймовым вуфером и фирменным U-ART твитером. Он обеспечивает частотный диапазон от 39 Гц до 25 кГц и мощность 70 Вт. T7V отличается высокой детализацией, широкой стереокартиной и минимальными искажениями. Идеален для точного микширования, особенно вокала и высокочастотных элементов. Немецкое качество и инженерия делают его надёжным инструментом в любой студии.",
+      "price": 249.0,
+      "quantity": 10,
+      "category": 4,
+      "sub_category": 13
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 124,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/10242_tz.jpg",
+      "name": "Студийные мониторы PreSonus Eris E5 XT",
+      "weight": 4.6,
+      "length": 29.0,
+      "width": 20.0,
+      "country": "Китай",
+      "description": "PreSonus Eris E5 XT — это активный студийный монитор с 5,25-дюймовым вуфером и 1-дюймовым твитером. Он предлагает частотный диапазон от 53 Гц до 22 кГц и мощность 80 Вт. Особенностью модели является волновод EBM, обеспечивающий широкую зону прослушивания. Монитор оснащён акустическими настройками для адаптации к помещению. Отличный выбор для домашних студий, подкастеров и начинающих звукорежиссёров.",
+      "price": 149.0,
+      "quantity": 18,
+      "category": 4,
+      "sub_category": 13
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 125,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/10242_tz.jpg",
+      "name": "Студийные мониторы Genelec 8010A",
+      "weight": 1.5,
+      "length": 19.5,
+      "width": 12.0,
+      "country": "Финляндия",
+      "description": "Genelec 8010A — это ультракомпактный активный студийный монитор с 3-дюймовым вуфером и 0,75-дюймовым твитером. Он предлагает частотный диапазон от 74 Гц до 20 кГц и мощность 25 Вт. Несмотря на размеры, 8010A обеспечивает точное и чистое звучание, идеально подходящее для мобильных студий, пост-продакшена и вещания. Прочный алюминиевый корпус и фирменная акустическая архитектура Genelec гарантируют стабильность и долговечность.",
+      "price": 299.0,
+      "quantity": 7,
+      "category": 4,
+      "sub_category": 13
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 126,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/9855_Alto-TS215-main.jpg",
+      "name": "Студийные мониторы Mackie MR824",
+      "weight": 10.4,
+      "length": 41.0,
+      "width": 28.0,
+      "country": "Китай",
+      "description": "Mackie MR824 — это активный студийный монитор с 8-дюймовым вуфером и 1-дюймовым твитером. Он предлагает частотный диапазон от 38 Гц до 20 кГц и мощность 85 Вт. MR824 обеспечивает сбалансированное звучание с глубокими басами и чёткими верхами. Оснащён акустическими фильтрами для адаптации к помещению. Отличный выбор для тех, кто работает с электронной музыкой, хип-хопом и кинозвуком.",
+      "price": 229.0,
+      "quantity": 9,
+      "category": 4,
+      "sub_category": 13
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 127,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/86BA8F41BD326905D6A390AFCFDE89B9.jpg",
+      "name": "Студийные мониторы Focal Alpha 65 Evo",
+      "weight": 7.6,
+      "length": 39.0,
+      "width": 26.0,
+      "country": "Франция",
+      "description": "Focal Alpha 65 Evo — это профессиональный студийный монитор с 6,5-дюймовым вуфером и 1-дюймовым алюминиевым твитером. Он предлагает частотный диапазон от 40 Гц до 22 кГц и мощность 105 Вт. Модель отличается высокой точностью, динамикой и нейтральностью звучания. Идеален для микширования, мастеринга и саунд-дизайна. Focal — это французское качество и внимание к деталям.",
+      "price": 349.0,
+      "quantity": 6,
+      "category": 4,
+      "sub_category": 13
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 128,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/DEC578F69032F3C5699C418D615F8C09.jpg",
+      "name": "Студийные мониторы JBL 305P MkII",
+      "weight": 4.7,
+      "length": 29.0,
+      "width": 22.0,
+      "country": "Китай",
+      "description": "JBL 305P MkII — это активный студийный монитор с 5-дюймовым вуфером и 1-дюймовым твитером. Он предлагает частотный диапазон от 49 Гц до 20 кГц и мощность 82 Вт. Особенностью является фирменный волновод Image Control, обеспечивающий точную стереокартину. Монитор подходит для микширования, создания контента и обучения. JBL — это надёжность, доступность и узнаваемое звучание.",
+      "price": 149.0,
+      "quantity": 20,
+      "category": 4,
+      "sub_category": 13
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 129,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/9855_Alto-TS215-main.jpg",
+      "name": "Студийные мониторы Neumann KH 120 II",
+      "weight": 6.5,
+      "length": 28.0,
+      "width": 18.0,
+      "country": "Германия",
+      "description": "Neumann KH 120 II — это двухполосный студийный монитор с 5,25-дюймовым вуфером и 1-дюймовым твитером. Он предлагает частотный диапазон от 44 Гц до 21 кГц и мощность 145 Вт. Модель отличается высокой точностью, минимальными искажениями и адаптацией к акустике помещения. KH 120 II — это выбор профессионалов, работающих в вещании, пост-продакшене и мастеринге. Neumann — эталон качества в мире студийного звука.",
+      "price": 699.0,
+      "quantity": 5,
+      "category": 4,
+      "sub_category": 13
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 130,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/DEC578F69032F3C5699C418D615F8C09.jpg",
+      "name": "Студийные мониторы IK Multimedia iLoud MTM",
+      "weight": 2.5,
+      "length": 27.0,
+      "width": 16.0,
+      "country": "Италия",
+      "description": "IK Multimedia iLoud MTM — это компактный студийный монитор с двумя 3,5-дюймовыми вуферами и 1-дюймовым твитером. Он предлагает частотный диапазон от 40 Гц до 24 кГц и мощность 100 Вт. Встроенная система калибровки ARC позволяет адаптировать звучание к помещению. MTM обеспечивает точное, мощное звучание в компактном корпусе. Идеален для мобильных студий, домашних продюсеров и креативных профессионалов.",
+      "price": 349.0,
+      "quantity": 8,
+      "category": 4,
+      "sub_category": 13
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 131,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/SV200_HR.jpg",
+      "name": "Микрофон RØDE NT1 5th Gen",
+      "weight": 0.31,
+      "length": 19.0,
+      "width": 5.0,
+      "country": "Австралия",
+      "description": "RØDE NT1 5th Gen — это конденсаторный микрофон с ультранизким уровнем шума (всего 4 дБА), гибридным XLR/USB-C выходом и встроенным DSP. Он идеально подходит для записи вокала, акустических инструментов и подкастов. Микрофон оснащён 1-дюймовой капсулой с кардиоидной направленностью, обеспечивающей точную передачу звука и минимизацию фонового шума. Прочный корпус из алюминия и комплект с пауком и поп-фильтром делают его универсальным решением для профессиональной и домашней студии.",
+      "price": 269.0,
+      "quantity": 12,
+      "category": 4,
+      "sub_category": 14
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 132,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/37DF323164893081B1ABBEDE7959EC77.jpg",
+      "name": "Микрофон Audio-Technica AT2020",
+      "weight": 0.34,
+      "length": 16.2,
+      "width": 5.2,
+      "country": "Китай",
+      "description": "Audio-Technica AT2020 — это доступный студийный конденсаторный микрофон с кардиоидной направленностью, идеально подходящий для записи вокала, гитары и подкастов. Он предлагает широкий частотный диапазон (20 Гц – 20 кГц) и высокую чувствительность, обеспечивая чистое и детализированное звучание. Прочный металлический корпус и надёжная капсула делают его отличным выбором для начинающих звукорежиссёров и домашних студий. AT2020 — это баланс между качеством и ценой.",
+      "price": 119.0,
+      "quantity": 18,
+      "category": 4,
+      "sub_category": 14
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 133,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/shure_beta_52a__1___1_.jpg",
+      "name": "Микрофон Shure SM7B",
+      "weight": 0.77,
+      "length": 19.0,
+      "width": 6.5,
+      "country": "Мексика",
+      "description": "Shure SM7B — это динамический микрофон с кардиоидной направленностью, известный своим тёплым и гладким звучанием. Он идеально подходит для записи вокала, подкастов, стриминга и радиовещания. Микрофон оснащён встроенным поп-фильтром, экранированием от электромагнитных помех и переключателями усиления и частотной коррекции. SM7B — это индустриальный стандарт, используемый в профессиональных студиях по всему миру.",
+      "price": 399.0,
+      "quantity": 10,
+      "category": 4,
+      "sub_category": 14
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 134,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/5b6153778984b4401b464c51cb715589.png",
+      "name": "Микрофон Neumann TLM 102",
+      "weight": 0.26,
+      "length": 13.0,
+      "width": 5.0,
+      "country": "Германия",
+      "description": "Neumann TLM 102 — это компактный студийный конденсаторный микрофон с кардиоидной направленностью и высоким уровнем звукового давления (до 144 дБ SPL). Он идеально подходит для записи вокала, ударных и гитарных кабинетов. Микрофон отличается прозрачным звучанием, быстрым откликом и фирменным качеством Neumann. Прочный корпус и элегантный дизайн делают его желанным инструментом в любой профессиональной студии.",
+      "price": 699.0,
+      "quantity": 6,
+      "category": 4,
+      "sub_category": 14
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 135,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/SV200_HR.jpg",
+      "name": "Микрофон Blue Yeti X",
+      "weight": 0.52,
+      "length": 29.0,
+      "width": 12.0,
+      "country": "Китай",
+      "description": "Blue Yeti X — это USB-микрофон с четырьмя направленными режимами (кардиоид, всенаправленный, двунаправленный, стерео), идеально подходящий для подкастов, стриминга и записи вокала. Он оснащён LED-индикатором уровня, встроенным усилителем и программным управлением через Blue VO!CE. Микрофон предлагает студийное качество звука без необходимости внешнего аудиоинтерфейса. Отличный выбор для контент-креаторов и домашних студий.",
+      "price": 179.0,
+      "quantity": 14,
+      "category": 4,
+      "sub_category": 14
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 136,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/44.jpg",
+      "name": "Микрофон AKG C214",
+      "weight": 0.28,
+      "length": 16.0,
+      "width": 5.5,
+      "country": "Австрия",
+      "description": "AKG C214 — это студийный конденсаторный микрофон с кардиоидной направленностью, созданный как доступная альтернатива легендарному C414. Он предлагает широкий частотный диапазон, высокий уровень звукового давления (до 156 дБ SPL) и встроенный аттенюатор. Идеален для записи вокала, гитар, ударных и духовых инструментов. Прочный металлический корпус и надёжная капсула делают его отличным выбором для профессиональной студии.",
+      "price": 399.0,
+      "quantity": 9,
+      "category": 4,
+      "sub_category": 14
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 137,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/44.jpg",
+      "name": "Микрофон Lewitt LCT 440 PURE",
+      "weight": 0.31,
+      "length": 15.0,
+      "width": 5.0,
+      "country": "Австрия",
+      "description": "Lewitt LCT 440 PURE — это конденсаторный микрофон с кардиоидной направленностью, обеспечивающий кристально чистое звучание и низкий уровень шума. Он оснащён 1-дюймовой капсулой, широким частотным диапазоном и высокой чувствительностью. Идеален для записи вокала, акустических инструментов и перкуссии. Компактный корпус, стильный дизайн и комплект с пауком и поп-фильтром делают его отличным выбором для студийной работы.",
+      "price": 269.0,
+      "quantity": 11,
+      "category": 4,
+      "sub_category": 14
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 138,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/SV200_HR.jpg",
+      "name": "Микрофон Warm Audio WA-47",
+      "weight": 1.0,
+      "length": 21.0,
+      "width": 6.0,
+      "country": "США",
+      "description": "Warm Audio WA-47 — это ламповый конденсаторный микрофон, вдохновлённый классическим Neumann U47. Он предлагает девять направленностей, богатое винтажное звучание и высокую чувствительность. Идеален для записи вокала, духовых, струнных и оркестровых инструментов. В комплекте — ламповый предусилитель, паук, кабель и кейс. WA-47 — это доступный путь к легендарному студийному тону.",
+      "price": 899.0,
+      "quantity": 4,
+      "category": 4,
+      "sub_category": 14
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 139,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/5b6153778984b4401b464c51cb715589.png",
+      "name": "Микрофон FIFINE T669",
+      "weight": 0.45,
+      "length": 15.0,
+      "width": 5.0,
+      "country": "Китай",
+      "description": "FIFINE T669 — это USB-конденсаторный микрофон начального уровня с кардиоидной направленностью, идеально подходящий для подкастов, стриминга и онлайн-общения. В комплекте — стойка, поп-фильтр, паук и кабель. Микрофон предлагает чистое звучание, простую установку и совместимость с Windows и macOS. Отличный выбор для начинающих контент-креаторов и домашней записи.",
+      "price": 69.0,
+      "quantity": 20,
+      "category": 4,
+      "sub_category": 14
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 140,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/SV200_HR.jpg",
+      "name": "Микрофон Stellar X2",
+      "weight": 0.42,
+      "length": 17.0,
+      "width": 5.0,
+      "country": "Китай",
+      "description": "Stellar X2 — это студийный конденсаторный микрофон с большой диафрагмой и кардиоидной направленностью. Он предлагает низкий уровень шума (менее 13 дБА), высокую чувствительность и нейтральное звучание. Идеален для записи вокала, акустики и перкуссии. Прочный корпус, качественная капсула и доступная цена делают его популярным выбором среди домашних и профессиональных студий.",
+      "price": 199.0,
+      "quantity": 13,
+      "category": 4,
+      "sub_category": 14
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 141,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/9615_tz.jpg",
+      "name": "Наушники Sennheiser HD 650",
+      "weight": 0.26,
+      "length": 27.0,
+      "width": 18.0,
+      "country": "Германия",
+      "description": "Sennheiser HD 650 — это открытые студийные наушники, предназначенные для критического прослушивания, мастеринга и микширования. Они обеспечивают нейтральное и детализированное звучание с широкой стереосценой. Амбушюры из велюра и лёгкая конструкция делают их комфортными для длительного использования. HD 650 — выбор профессионалов, ценящих точность и натуральность звука. Требуют качественного усилителя для раскрытия потенциала.",
+      "price": 499.0,
+      "quantity": 8,
+      "category": 4,
+      "sub_category": 15
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 142,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/508ae0ea9e.jpg",
+      "name": "Наушники Beyerdynamic DT 770 Pro 250 Ohm",
+      "weight": 0.27,
+      "length": 26.0,
+      "width": 17.0,
+      "country": "Германия",
+      "description": "Beyerdynamic DT 770 Pro — это закрытые студийные наушники с импедансом 250 Ом, идеально подходящие для мониторинга и записи. Они обеспечивают мощный бас, чёткие высокие частоты и отличную изоляцию от внешнего шума. Амбушюры из мягкого велюра и прочная конструкция делают их удобными и долговечными. Это один из самых популярных вариантов для студий по всему миру.",
+      "price": 169.0,
+      "quantity": 12,
+      "category": 4,
+      "sub_category": 15
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 143,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/9615_tz.jpg",
+      "name": "Наушники Audio-Technica ATH-M50x",
+      "weight": 0.29,
+      "length": 28.0,
+      "width": 20.0,
+      "country": "Китай",
+      "description": "Audio-Technica ATH-M50x — это закрытые наушники с мощным и сбалансированным звучанием, подходящие для записи, микширования и повседневного прослушивания. Они оснащены 45-мм драйверами, обеспечивающими широкий частотный диапазон и точную передачу деталей. Складная конструкция и сменные кабели делают их удобными для мобильной работы. ATH-M50x — это универсальный инструмент для студии и вне её.",
+      "price": 149.0,
+      "quantity": 15,
+      "category": 4,
+      "sub_category": 15
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 144,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/d9cjpa3mny0wwwccck4csg04w.jpeg",
+      "name": "Наушники Sony MDR-7506",
+      "weight": 0.23,
+      "length": 25.0,
+      "width": 17.0,
+      "country": "Япония",
+      "description": "Sony MDR-7506 — это легендарные закрытые студийные наушники, используемые в радиовещании, кино и звукозаписи. Они обеспечивают яркое и детализированное звучание, особенно в верхнем диапазоне. Лёгкая конструкция, складной дизайн и длинный витой кабель делают их удобными для профессионального использования. MDR-7506 — это проверенный временем инструмент для точного мониторинга.",
+      "price": 99.0,
+      "quantity": 20,
+      "category": 4,
+      "sub_category": 15
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 145,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/9615_tz.jpg",
+      "name": "Наушники AKG K240 Studio",
+      "weight": 0.24,
+      "length": 26.0,
+      "width": 18.0,
+      "country": "Австрия",
+      "description": "AKG K240 Studio — это полуоткрытые наушники, обеспечивающие широкую стереосцену и натуральное звучание. Они идеально подходят для микширования, мастеринга и прослушивания. Амбушюры из кожзама, лёгкая конструкция и сменный кабель делают их удобными и практичными. K240 — это классика студийного мониторинга, используемая во многих учебных и профессиональных студиях.",
+      "price": 79.0,
+      "quantity": 18,
+      "category": 4,
+      "sub_category": 15
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 146,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/508ae0ea9e.jpg",
+      "name": "Наушники Focal Listen Professional",
+      "weight": 0.28,
+      "length": 27.0,
+      "width": 19.0,
+      "country": "Франция",
+      "description": "Focal Listen Professional — это закрытые студийные наушники с мощным и точным звучанием, разработанные для микширования и записи. Они обеспечивают отличную изоляцию, комфорт и надёжность. Амбушюры из пены с эффектом памяти и складная конструкция делают их удобными для длительного использования. Focal — это французское качество и внимание к деталям.",
+      "price": 249.0,
+      "quantity": 9,
+      "category": 4,
+      "sub_category": 15
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 147,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/9615_tz.jpg",
+      "name": "Наушники Shure SRH840",
+      "weight": 0.32,
+      "length": 28.0,
+      "width": 20.0,
+      "country": "Китай",
+      "description": "Shure SRH840 — это закрытые наушники, разработанные для профессионального мониторинга и записи. Они обеспечивают точную передачу звука, особенно в среднечастотном диапазоне, что делает их идеальными для вокала и инструментов. Амбушюры из кожзама, складная конструкция и сменный кабель повышают удобство и долговечность. Shure — это надёжность и студийное качество.",
+      "price": 149.0,
+      "quantity": 11,
+      "category": 4,
+      "sub_category": 15
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 148,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/HD681EVO-1.jpg",
+      "name": "Наушники Sennheiser HD 280 Pro",
+      "weight": 0.27,
+      "length": 26.0,
+      "width": 18.0,
+      "country": "Германия",
+      "description": "Sennheiser HD 280 Pro — это закрытые наушники с высокой изоляцией и нейтральным звучанием. Они идеально подходят для записи, мониторинга и подкастов. Прочная конструкция, складной дизайн и комфортные амбушюры делают их удобными для длительного использования. HD 280 Pro — это надёжный выбор для студий, вещания и мобильной работы.",
+      "price": 99.0,
+      "quantity": 14,
+      "category": 4,
+      "sub_category": 15
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 149,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/508ae0ea9e.jpg",
+      "name": "Наушники Austrian Audio Hi-X55",
+      "weight": 0.31,
+      "length": 27.0,
+      "width": 19.0,
+      "country": "Австрия",
+      "description": "Austrian Audio Hi-X55 — это закрытые студийные наушники с 44-мм драйверами и высокой детализацией. Они обеспечивают точное звучание, особенно в низких и средних частотах, и подходят для микширования и мастеринга. Амбушюры из пены с эффектом памяти и прочная конструкция делают их комфортными и долговечными. Hi-X55 — это современное австрийское качество для профессионалов.",
+      "price": 329.0,
+      "quantity": 7,
+      "category": 4,
+      "sub_category": 15
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 150,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/508ae0ea9e.jpg",
+      "name": "Наушники Beyerdynamic DT 990 Pro 250 Ohm",
+      "weight": 0.29,
+      "length": 27.0,
+      "width": 18.0,
+      "country": "Германия",
+      "description": "Beyerdynamic DT 990 Pro — это открытые студийные наушники с широкой стереосценой и ярким звучанием. Они идеально подходят для микширования, мастеринга и критического прослушивания. Амбушюры из велюра, прочная конструкция и высокая чувствительность делают их комфортными и надёжными. DT 990 Pro — это выбор тех, кто ценит прозрачность и детализацию.",
+      "price": 169.0,
+      "quantity": 10,
+      "category": 4,
+      "sub_category": 15
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 151,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/79a7fefaaeff9c98494cc0bf2eb0fb93.jpg",
+      "name": "DJ-контроллер Pioneer DDJ-FLX4",
+      "weight": 2.1,
+      "length": 48.0,
+      "width": 30.0,
+      "country": "Малайзия",
+      "description": "Pioneer DDJ-FLX4 — это компактный двухканальный DJ-контроллер, совместимый с Rekordbox и Serato DJ Lite. Он оснащён джогами с низкой задержкой, четырьмя пэдами на деку, встроенной звуковой картой и USB-C питанием. Контроллер идеально подходит для начинающих и мобильных диджеев, предлагая функции Smart Fader и Smart CFX для упрощённого сведения. FLX4 — это современный инструмент с интуитивным управлением и стильным дизайном.",
+      "price": 299.0,
+      "quantity": 15,
+      "category": 4,
+      "sub_category": 16
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 152,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/4bi7c03qr7z1nfu6szovvyc22u5dlvwm.jpg",
+      "name": "DJ-контроллер Numark Mixtrack Platinum FX",
+      "weight": 2.5,
+      "length": 55.0,
+      "width": 30.0,
+      "country": "Китай",
+      "description": "Numark Mixtrack Platinum FX — это 4-канальный DJ-контроллер с большими джогами, встроенными дисплеями, 16 пэдами и FX-панелью. Он совместим с Serato DJ Lite и предлагает удобное управление эффектами, лупами и сэмплами. Контроллер оснащён встроенной звуковой картой и микрофонным входом. Отличный выбор для начинающих и продвинутых пользователей, ищущих функциональность и доступность.",
+      "price": 279.0,
+      "quantity": 12,
+      "category": 4,
+      "sub_category": 16
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 153,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/246833e7bfe4da6a81fe3f871659b989.jpg",
+      "name": "DJ-контроллер Native Instruments Traktor Kontrol S3",
+      "weight": 3.2,
+      "length": 58.0,
+      "width": 32.0,
+      "country": "Китай",
+      "description": "Traktor Kontrol S3 — это 4-канальный DJ-контроллер, разработанный для работы с Traktor Pro 3. Он оснащён RGB-пэдами, большими джогами, четырьмя фейдерами и встроенной звуковой картой. Контроллер предлагает точное управление миксом, фильтрами и эффектами. Прочный корпус и эргономичная компоновка делают его удобным для сцены и студии. Отличный выбор для тех, кто работает в экосистеме Native Instruments.",
+      "price": 599.0,
+      "quantity": 8,
+      "category": 4,
+      "sub_category": 16
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 154,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/11u32bahlcn2o446lan1d33ub9yho0h1-scaled.jpg",
+      "name": "DJ-контроллер Roland DJ-202",
+      "weight": 2.4,
+      "length": 49.0,
+      "width": 27.0,
+      "country": "Китай",
+      "description": "Roland DJ-202 — это двухканальный DJ-контроллер с встроенным секвенсором и драм-машиной TR. Он совместим с Serato DJ Lite и предлагает 16 пэдов, микрофонный вход с эффектами и MIDI-выход. Контроллер идеально подходит для тех, кто хочет сочетать DJ-сведение с живым битмейкингом. Компактный корпус и USB-питание делают его удобным для мобильных сетов и домашних студий.",
+      "price": 349.0,
+      "quantity": 10,
+      "category": 4,
+      "sub_category": 16
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 155,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/246833e7bfe4da6a81fe3f871659b989.jpg",
+      "name": "DJ-контроллер Hercules DJControl Inpulse 500",
+      "weight": 3.2,
+      "length": 54.0,
+      "width": 30.0,
+      "country": "Китай",
+      "description": "Hercules Inpulse 500 — это двухканальный DJ-контроллер с металлической панелью, большими джогами, 16 пэдами и встроенной звуковой картой. Он совместим с DJUCED и Serato DJ Lite, предлагает функции Beatmatch Guide и Intelligent Music Assistant. Контроллер оснащён аудиовыходами XLR и RCA, а также подставкой для смартфона. Отличный выбор для начинающих и продвинутых диджеев.",
+      "price": 299.0,
+      "quantity": 14,
+      "category": 4,
+      "sub_category": 16
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 156,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/246833e7bfe4da6a81fe3f871659b989.jpg",
+      "name": "DJ-контроллер Denon DJ Prime 4+",
+      "weight": 9.7,
+      "length": 73.0,
+      "width": 45.0,
+      "country": "Китай",
+      "description": "Denon Prime 4+ — это автономный 4-канальный DJ-контроллер с 10-дюймовым сенсорным экраном, встроенным Wi-Fi и поддержкой стриминга. Он оснащён четырьмя фейдерами, 16 пэдами, двумя микрофонными входами и встроенным рекордером. Контроллер работает без компьютера, поддерживает Engine DJ OS и предлагает профессиональный функционал для сцены и клубов. Это флагманское решение для серьёзных диджеев.",
+      "price": 2299.0,
+      "quantity": 4,
+      "category": 4,
+      "sub_category": 16
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 157,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/246833e7bfe4da6a81fe3f871659b989.jpg",
+      "name": "DJ-контроллер Reloop Beatmix 4 MK2",
+      "weight": 2.9,
+      "length": 55.0,
+      "width": 32.0,
+      "country": "Китай",
+      "description": "Reloop Beatmix 4 MK2 — это 4-канальный DJ-контроллер, оптимизированный для Serato DJ Lite. Он оснащён большими джогами, 16 RGB-пэдами, встроенной звуковой картой и интуитивной компоновкой. Контроллер предлагает удобное управление лупами, сэмплами и эффектами. Прочный корпус и эргономичный дизайн делают его отличным выбором для начинающих и мобильных диджеев.",
+      "price": 349.0,
+      "quantity": 9,
+      "category": 4,
+      "sub_category": 16
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 158,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/246833e7bfe4da6a81fe3f871659b989.jpg",
+      "name": "DJ-контроллер Pioneer DDJ-REV1",
+      "weight": 2.1,
+      "length": 52.0,
+      "width": 25.0,
+      "country": "Малайзия",
+      "description": "Pioneer DDJ-REV1 — это двухканальный DJ-контроллер, ориентированный на скретч и баттл-миксы. Он совместим с Serato DJ Lite и предлагает уникальную компоновку с горизонтальными фейдерами, большими джогами и FX-панелью. Контроллер оснащён встроенной звуковой картой, микрофонным входом и USB-питанием. Отличный выбор для начинающих скретч-диджеев и тех, кто хочет освоить баттл-формат.",
+      "price": 279.0,
+      "quantity": 13,
+      "category": 4,
+      "sub_category": 16
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 159,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/87c228bc58293af2824733a3f3265e69.jpg",
+      "name": "DJ-контроллер Numark Mixstream Pro Go",
+      "weight": 3.6,
+      "length": 55.0,
+      "width": 33.0,
+      "country": "Китай",
+      "description": "Mixstream Pro Go — это автономный DJ-контроллер с встроенными динамиками, аккумулятором и Wi-Fi. Он работает на Engine DJ OS, поддерживает стриминг, запись и управление освещением. Контроллер оснащён 7-дюймовым сенсорным экраном, 4 пэдами на деку и встроенной звуковой картой. Идеален для мобильных сетов, вечеринок и уличных выступлений без необходимости подключения к компьютеру.",
+      "price": 899.0,
+      "quantity": 6,
+      "category": 4,
+      "sub_category": 16
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 160,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/87c228bc58293af2824733a3f3265e69.jpg",
+      "name": "DJ-контроллер Traktor Kontrol S2 MK3",
+      "weight": 2.4,
+      "length": 49.0,
+      "width": 27.0,
+      "country": "Китай",
+      "description": "Traktor Kontrol S2 MK3 — это двухканальный DJ-контроллер с интеграцией Traktor Pro 3. Он оснащён большими джогами, RGB-пэдами, встроенной звуковой картой и USB-питанием. Контроллер предлагает удобное управление эффектами, лупами и миксом. Компактный корпус и интуитивный интерфейс делают его отличным выбором для начинающих и мобильных пользователей в экосистеме Native Instruments.",
+      "price": 299.0,
+      "quantity": 11,
+      "category": 4,
+      "sub_category": 16
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 161,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/hdfm600.jpg",
+      "name": "Гитарный кабель Mogami Gold Instrument 10",
+      "weight": 0.35,
+      "length": 25.0,
+      "width": 5.0,
+      "country": "Япония",
+      "description": "Mogami Gold Instrument 10 — это профессиональный гитарный кабель длиной 3 метра, изготовленный из 99.99% бескислородной меди с двойным экранированием. Он обеспечивает максимальную чистоту сигнала, минимальные потери и отличную защиту от помех. Коннекторы Neutrik с позолоченными контактами гарантируют надёжность и долговечность. Кабель идеально подходит для студийной записи и живых выступлений, сохраняя натуральность звучания инструмента.",
+      "price": 69.0,
+      "quantity": 15,
+      "category": 5,
+      "sub_category": 17
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 162,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/7142AAB775C5188B0295BFBBC77673B0.jpg",
+      "name": "Гитарный кабель Fender Deluxe Series Instrument Cable 15ft",
+      "weight": 0.42,
+      "length": 30.0,
+      "width": 6.0,
+      "country": "Китай",
+      "description": "Fender Deluxe Series — это гитарный кабель длиной 4.5 метра с 24K позолоченными разъёмами и спиральным экранированием. Он обеспечивает стабильную передачу сигнала, устойчив к перегибам и механическим повреждениям. Оболочка из винила и усиленные концы делают его надёжным выбором для сцены. Fender предлагает классическое качество и стиль, подходящий как для электрогитар, так и для басов.",
+      "price": 39.0,
+      "quantity": 20,
+      "category": 5,
+      "sub_category": 17
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 163,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/hdfm600.jpg",
+      "name": "Гитарный кабель Ernie Ball Braided Instrument Cable 10ft",
+      "weight": 0.38,
+      "length": 25.0,
+      "width": 5.0,
+      "country": "Китай",
+      "description": "Ernie Ball Braided — это гитарный кабель длиной 3 метра с плетёной нейлоновой оболочкой, обеспечивающей дополнительную защиту и гибкость. Он оснащён 99.95% бескислородной медной жилой, двойным экранированием и надёжными разъёмами. Кабель устойчив к перегибам, не путается и сохраняет чистоту сигнала. Отличный выбор для гитаристов, ценящих надёжность и стиль.",
+      "price": 29.0,
+      "quantity": 18,
+      "category": 5,
+      "sub_category": 17
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 164,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/hdfm600.jpg",
+      "name": "Гитарный кабель Planet Waves American Stage Cable 20ft",
+      "weight": 0.45,
+      "length": 32.0,
+      "width": 6.0,
+      "country": "США",
+      "description": "Planet Waves American Stage — это гитарный кабель длиной 6 метров, изготовленный в США с использованием бескислородной меди и индуктивного экранирования. Он обеспечивает чистое, мощное звучание без потерь и шумов. Разъёмы Neutrik с Geo-Tip гарантируют надёжное соединение с любыми гнёздами. Кабель подходит для профессионального использования в студии и на сцене.",
+      "price": 49.0,
+      "quantity": 12,
+      "category": 5,
+      "sub_category": 17
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 165,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/Schulz_Kabel_BX_3.jpg",
+      "name": "Гитарный кабель Boss BIC-10 Instrument Cable",
+      "weight": 0.33,
+      "length": 24.0,
+      "width": 5.0,
+      "country": "Китай",
+      "description": "Boss BIC-10 — это гитарный кабель длиной 3 метра с прочной оболочкой и двойным экранированием. Он обеспечивает стабильную передачу сигнала, минимизирует шумы и устойчив к механическим повреждениям. Разъёмы с никелевым покрытием и усиленные концы делают его надёжным выбором для ежедневного использования. Boss — это качество, проверенное временем.",
+      "price": 25.0,
+      "quantity": 22,
+      "category": 5,
+      "sub_category": 17
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 166,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/Schulz_Kabel_BX_3.jpg",
+      "name": "Гитарный кабель D’Addario Custom Series Cable 15ft",
+      "weight": 0.4,
+      "length": 30.0,
+      "width": 6.0,
+      "country": "США",
+      "description": "D’Addario Custom Series — это гитарный кабель длиной 4.5 метра с позолоченными разъёмами и двухслойным экранированием. Он обеспечивает чистое звучание, устойчив к помехам и перегибам. Оболочка из ПВХ и усиленные соединения делают его надёжным для сцены и студии. D’Addario — это сочетание качества, доступности и надёжности.",
+      "price": 35.0,
+      "quantity": 16,
+      "category": 5,
+      "sub_category": 17
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 167,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/Schulz_Kabel_BX_3.jpg",
+      "name": "Гитарный кабель GLS Audio Instrument Cable 20ft",
+      "weight": 0.48,
+      "length": 32.0,
+      "width": 6.0,
+      "country": "Китай",
+      "description": "GLS Audio — это гитарный кабель длиной 6 метров с двойным экранированием, позолоченными контактами и прочной оболочкой. Он обеспечивает стабильную передачу сигнала, минимизирует шумы и подходит для профессионального использования. Кабель отличается высокой гибкостью и устойчивостью к перегибам. GLS — это надёжный выбор для музыкантов всех уровней.",
+      "price": 29.0,
+      "quantity": 14,
+      "category": 5,
+      "sub_category": 17
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 168,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/dtp27729_ernie-ball_6046_instrumentalnyy-kabel_1127937-1400x1400.jpeg",
+      "name": "Гитарный кабель Hosa HGTR-010 Pro Guitar Cable",
+      "weight": 0.36,
+      "length": 25.0,
+      "width": 5.0,
+      "country": "Китай",
+      "description": "Hosa HGTR-010 — это гитарный кабель длиной 3 метра с позолоченными разъёмами и спиральным экранированием. Он обеспечивает чистое звучание, устойчив к помехам и механическим повреждениям. Оболочка из ПВХ и усиленные концы делают его удобным для сцены и студии. Hosa — это доступное качество для ежедневного использования.",
+      "price": 19.0,
+      "quantity": 25,
+      "category": 5,
+      "sub_category": 17
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 169,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/hdfm600.jpg",
+      "name": "Гитарный кабель ProCo Excellines Guitar Cable 10ft",
+      "weight": 0.37,
+      "length": 25.0,
+      "width": 5.0,
+      "country": "США",
+      "description": "ProCo Excellines — это гитарный кабель длиной 3 метра с прочной оболочкой, двойным экранированием и никелированными разъёмами. Он обеспечивает стабильную передачу сигнала, устойчив к перегибам и механическим повреждениям. Кабель подходит для студийной и сценической работы, предлагая надёжность и чистоту звучания. ProCo — это американское качество и долговечность.",
+      "price": 27.0,
+      "quantity": 17,
+      "category": 5,
+      "sub_category": 17
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 170,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/nc450__1_.jpg",
+      "name": "Гитарный кабель Orange Professional Cable 20ft",
+      "weight": 0.5,
+      "length": 32.0,
+      "width": 6.0,
+      "country": "Китай",
+      "description": "Orange Professional — это гитарный кабель длиной 6 метров с фирменной оранжевой оболочкой, двойным экранированием и позолоченными разъёмами. Он обеспечивает мощное, чистое звучание и устойчив к перегибам. Кабель подходит для сцены, студии и репетиций. Orange — это не только стиль, но и надёжность, проверенная временем.",
+      "price": 39.0,
+      "quantity": 13,
+      "category": 5,
+      "sub_category": 17
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 171,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/MWC-270PB-BKA_3s9s-5t.jpg",
+      "name": "Микрофонные кабель Mogami Gold Studio XLR 15ft",
+      "weight": 0.45,
+      "length": 30.0,
+      "width": 5.0,
+      "country": "Япония",
+      "description": "Mogami Gold Studio — это профессиональный микрофонный кабель длиной 4.5 метра, изготовленный из бескислородной меди с двойным экранированием. Он обеспечивает исключительную чистоту сигнала, минимальные потери и надёжную защиту от радиопомех. Коннекторы Neutrik с позолоченными контактами гарантируют стабильность соединения. Кабель идеально подходит для студийной записи, живых выступлений и вещания, обеспечивая прозрачность и точность передачи звука.",
+      "price": 89.0,
+      "quantity": 10,
+      "category": 5,
+      "sub_category": 18
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 172,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/DE5DCBD1050F857153186D09C01F651E.jpg",
+      "name": "Микрофонные кабель Canare L-4E6S XLR Cable 20ft",
+      "weight": 0.5,
+      "length": 32.0,
+      "width": 6.0,
+      "country": "Япония",
+      "description": "Canare L-4E6S — это микрофонный кабель длиной 6 метров, выполненный по технологии Star Quad, обеспечивающей превосходное подавление шумов. Он оснащён прочной оболочкой, гибкой конструкцией и качественными XLR-разъёмами. Идеален для студий, сцен и вещательных комплексов. Canare — это японское качество, надёжность и стабильность в любых условиях.",
+      "price": 59.0,
+      "quantity": 12,
+      "category": 5,
+      "sub_category": 18
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 173,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/DE5DCBD1050F857153186D09C01F651E.jpg",
+      "name": "Микрофонные кабель ProCo EXM-20 XLR Cable",
+      "weight": 0.48,
+      "length": 30.0,
+      "width": 5.0,
+      "country": "США",
+      "description": "ProCo EXM-20 — это микрофонный кабель длиной 6 метров с прочной оболочкой и надёжными XLR-разъёмами. Он обеспечивает стабильную передачу сигнала, устойчив к перегибам и механическим повреждениям. Кабель подходит для студийной и сценической работы, предлагая надёжность и чистоту звучания. ProCo — это американское качество и долговечность.",
+      "price": 39.0,
+      "quantity": 14,
+      "category": 5,
+      "sub_category": 18
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 174,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/b-cvp100.jpg",
+      "name": "Микрофонные кабель Planet Waves Classic Series XLR 25ft",
+      "weight": 0.55,
+      "length": 35.0,
+      "width": 6.0,
+      "country": "США",
+      "description": "Planet Waves Classic Series — это микрофонный кабель длиной 7.5 метра с никелированными XLR-разъёмами и двухслойным экранированием. Он обеспечивает надёжную передачу сигнала, устойчив к радиопомехам и механическим воздействиям. Оболочка из ПВХ и усиленные соединения делают его удобным для сцены и студии. Отличный выбор для тех, кто ищет доступное и качественное решение.",
+      "price": 29.0,
+      "quantity": 18,
+      "category": 5,
+      "sub_category": 18
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 175,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/91A12E556FE08767DF46B8817C6DD9FF.jpg",
+      "name": "Микрофонные кабель Hosa HMIC-010 Pro Microphone Cable",
+      "weight": 0.4,
+      "length": 25.0,
+      "width": 5.0,
+      "country": "Китай",
+      "description": "Hosa HMIC-010 — это микрофонный кабель длиной 3 метра с позолоченными контактами и прочной оболочкой. Он обеспечивает чистое звучание, устойчив к помехам и механическим повреждениям. Кабель подходит для студийной записи, репетиций и живых выступлений. Hosa — это доступное качество для ежедневного использования.",
+      "price": 19.0,
+      "quantity": 20,
+      "category": 5,
+      "sub_category": 18
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 176,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/DE5DCBD1050F857153186D09C01F651E.jpg",
+      "name": "Микрофонные кабель Klotz M1FM1 XLR Cable 10ft",
+      "weight": 0.38,
+      "length": 25.0,
+      "width": 5.0,
+      "country": "Германия",
+      "description": "Klotz M1FM1 — это микрофонный кабель длиной 3 метра с высококачественными XLR-разъёмами и прочной оболочкой. Он обеспечивает стабильную передачу сигнала, минимальные потери и отличную защиту от помех. Идеален для студийной работы, вещания и сцены. Klotz — это немецкое качество, надёжность и точность.",
+      "price": 35.0,
+      "quantity": 16,
+      "category": 5,
+      "sub_category": 18
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 177,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/DE5DCBD1050F857153186D09C01F651E.jpg",
+      "name": "Микрофонные кабель Audio-Technica AT8314 XLR Cable 20ft",
+      "weight": 0.5,
+      "length": 32.0,
+      "width": 6.0,
+      "country": "Китай",
+      "description": "Audio-Technica AT8314 — это микрофонный кабель длиной 6 метров с прочной оболочкой и надёжными XLR-разъёмами. Он обеспечивает чистую передачу сигнала, устойчив к перегибам и радиопомехам. Кабель подходит для студийной записи, сцены и вещания. Audio-Technica — это стабильность и качество, проверенное временем.",
+      "price": 29.0,
+      "quantity": 15,
+      "category": 5,
+      "sub_category": 18
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 178,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/91A12E556FE08767DF46B8817C6DD9FF.jpg",
+      "name": "Микрофонные кабель Neutrik XLR Cable NC3MXX-NC3FXX 10ft",
+      "weight": 0.42,
+      "length": 25.0,
+      "width": 5.0,
+      "country": "Швейцария",
+      "description": "Neutrik NC3MXX-NC3FXX — это микрофонный кабель длиной 3 метра с фирменными XLR-разъёмами Neutrik, обеспечивающими надёжное соединение и долговечность. Кабель изготовлен из бескислородной меди, имеет двойное экранирование и прочную оболочку. Идеален для профессионального использования в студии и на сцене. Neutrik — это эталон качества в мире коммутации.",
+      "price": 45.0,
+      "quantity": 13,
+      "category": 5,
+      "sub_category": 18
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 179,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/DE5DCBD1050F857153186D09C01F651E.jpg",
+      "name": "Микрофонные кабель Warm Audio Premier XLR Cable 25ft",
+      "weight": 0.6,
+      "length": 35.0,
+      "width": 6.0,
+      "country": "США",
+      "description": "Warm Audio Premier — это премиальный микрофонный кабель длиной 7.5 метра с позолоченными контактами, двойным экранированием и прочной тканевой оболочкой. Он обеспечивает максимальную чистоту сигнала, минимальные потери и устойчивость к внешним воздействиям. Идеален для студийной записи, мастеринга и вещания. Warm Audio — это винтажный стиль и современное качество.",
+      "price": 59.0,
+      "quantity": 9,
+      "category": 5,
+      "sub_category": 18
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 180,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/91A12E556FE08767DF46B8817C6DD9FF.jpg",
+      "name": "Микрофонные кабель Monoprice Premier Series XLR 10ft",
+      "weight": 0.4,
+      "length": 25.0,
+      "width": 5.0,
+      "country": "Китай",
+      "description": "Monoprice Premier Series — это микрофонный кабель длиной 3 метра с прочной оболочкой, позолоченными контактами и двойным экранированием. Он обеспечивает стабильную передачу сигнала, устойчив к радиопомехам и механическим повреждениям. Отличный выбор для домашней студии, сцены и репетиций. Monoprice — это доступное качество и надёжность.",
+      "price": 17.0,
+      "quantity": 22,
+      "category": 5,
+      "sub_category": 18
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 181,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/B8C2DE1AFC9E6F7C11015C9085B27995.jpg",
+      "name": "Кабель для акустической системы Mogami W3103 Speaker Cable 10ft",
+      "weight": 0.45,
+      "length": 30.0,
+      "width": 5.0,
+      "country": "Япония",
+      "description": "Mogami W3103 — это высококачественный кабель для акустических систем длиной 3 метра, изготовленный из бескислородной меди с низким сопротивлением. Он обеспечивает чистую передачу сигнала, минимальные потери и отличную динамику. Кабель подходит для подключения усилителей к пассивным мониторам и акустическим системам. Прочная оболочка и гибкая конструкция делают его удобным для прокладки в студии и на сцене. Mogami — это японское качество, проверенное временем.",
+      "price": 59.0,
+      "quantity": 10,
+      "category": 5,
+      "sub_category": 19
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 182,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/1330139930029B3A53FD7A83C0C11274.jpg",
+      "name": "Кабель для акустической системы Cordial CLS 225 Speaker Cable 5m",
+      "weight": 0.5,
+      "length": 32.0,
+      "width": 6.0,
+      "country": "Германия",
+      "description": "Cordial CLS 225 — это профессиональный кабель для акустических систем длиной 5 метров с сечением 2x2.5 мм². Он изготовлен из бескислородной меди, обеспечивает надёжную передачу мощности и устойчив к внешним воздействиям. Кабель подходит для студий, сцен и инсталляций. Немецкое качество сборки гарантирует стабильность и долговечность. CLS 225 — это надёжный выбор для подключения усилителей и колонок.",
+      "price": 39.0,
+      "quantity": 12,
+      "category": 5,
+      "sub_category": 19
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 183,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/B8C2DE1AFC9E6F7C11015C9085B27995.jpg",
+      "name": "Кабель для акустической системы Klotz LY225 Speaker Cable 10m",
+      "weight": 0.65,
+      "length": 35.0,
+      "width": 6.0,
+      "country": "Германия",
+      "description": "Klotz LY225 — это акустический кабель длиной 10 метров с сечением 2x2.5 мм², предназначенный для подключения усилителей к пассивным акустическим системам. Он изготовлен из высококачественной меди, имеет прочную ПВХ-оболочку и устойчив к перегибам. Кабель обеспечивает стабильную передачу сигнала без потерь, подходит для студийной, сценической и инсталляционной работы. Klotz — это немецкая надёжность и точность.",
+      "price": 49.0,
+      "quantity": 8,
+      "category": 5,
+      "sub_category": 19
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 184,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/B8C2DE1AFC9E6F7C11015C9085B27995.jpg",
+      "name": "Кабель для акустической системы Sommer SC Stage 22 Speaker Cable 5m",
+      "weight": 0.4,
+      "length": 30.0,
+      "width": 5.0,
+      "country": "Германия",
+      "description": "Sommer SC Stage 22 — это акустический кабель длиной 5 метров, разработанный для сценического и студийного применения. Он имеет сечение 2x2.5 мм², двойное экранирование и прочную внешнюю оболочку. Кабель обеспечивает чистую передачу сигнала, устойчив к механическим повреждениям и радиопомехам. Sommer — это немецкое качество, надёжность и стабильность в любых условиях.",
+      "price": 35.0,
+      "quantity": 14,
+      "category": 5,
+      "sub_category": 19
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 185,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/E72A3EBD5C6C5D3274A8213FE9306064.jpg",
+      "name": "Кабель для акустической системы Proel HPC625 Speaker Cable 10m",
+      "weight": 0.6,
+      "length": 34.0,
+      "width": 6.0,
+      "country": "Италия",
+      "description": "Proel HPC625 — это акустический кабель длиной 10 метров с сечением 2x2.5 мм², изготовленный из бескислородной меди. Он обеспечивает надёжную передачу мощности, устойчив к перегибам и внешним воздействиям. Кабель подходит для подключения усилителей, микшеров и акустических систем. Прочная оболочка и гибкая конструкция делают его удобным для прокладки в студии и на сцене. Proel — это итальянское качество и доступность.",
+      "price": 29.0,
+      "quantity": 16,
+      "category": 5,
+      "sub_category": 19
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 186,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/E72A3EBD5C6C5D3274A8213FE9306064.jpg",
+      "name": "Кабель для акустической системы Hosa SKT-410 Speaker Cable 10ft",
+      "weight": 0.42,
+      "length": 30.0,
+      "width": 5.0,
+      "country": "Китай",
+      "description": "Hosa SKT-410 — это акустический кабель длиной 3 метра с разъёмами TS 6.3 мм, предназначенный для подключения усилителей к пассивным колонкам. Он изготовлен из бескислородной меди, имеет прочную оболочку и устойчив к механическим повреждениям. Кабель обеспечивает стабильную передачу сигнала, подходит для репетиций, сцены и домашней студии. Hosa — это доступное качество и надёжность.",
+      "price": 19.0,
+      "quantity": 20,
+      "category": 5,
+      "sub_category": 19
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 187,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/E72A3EBD5C6C5D3274A8213FE9306064.jpg",
+      "name": "Кабель для акустической системы Neutrik Speakon NL2FX Cable 5m",
+      "weight": 0.55,
+      "length": 32.0,
+      "width": 6.0,
+      "country": "Швейцария",
+      "description": "Neutrik NL2FX — это акустический кабель длиной 5 метров с разъёмами Speakon, предназначенный для подключения профессиональных акустических систем. Он обеспечивает надёжное соединение, устойчив к вибрациям и механическим нагрузкам. Кабель изготовлен из бескислородной меди, имеет прочную оболочку и подходит для сцены, инсталляций и студий. Neutrik — это эталон качества в мире коммутации.",
+      "price": 45.0,
+      "quantity": 13,
+      "category": 5,
+      "sub_category": 19
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 188,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/1330139930029B3A53FD7A83C0C11274.jpg",
+      "name": "Кабель для акустической системы Monoprice Speaker Cable 12AWG 3m",
+      "weight": 0.38,
+      "length": 28.0,
+      "width": 5.0,
+      "country": "Китай",
+      "description": "Monoprice 12AWG — это акустический кабель длиной 3 метра с сечением 2x3.3 мм², обеспечивающий мощную и стабильную передачу сигнала. Он изготовлен из бескислородной меди, имеет гибкую оболочку и подходит для подключения усилителей и колонок. Кабель устойчив к перегибам, легко прокладывается и обеспечивает чистое звучание. Monoprice — это доступное решение для студии и дома.",
+      "price": 17.0,
+      "quantity": 22,
+      "category": 5,
+      "sub_category": 19
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 189,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/E72A3EBD5C6C5D3274A8213FE9306064.jpg",
+      "name": "Кабель для акустической системы Belden 5000UE Speaker Cable 5m",
+      "weight": 0.5,
+      "length": 30.0,
+      "width": 5.0,
+      "country": "США",
+      "description": "Belden 5000UE — это профессиональный акустический кабель длиной 5 метров с сечением 2x2.5 мм², изготовленный из бескислородной меди. Он обеспечивает стабильную передачу мощности, устойчив к радиопомехам и механическим воздействиям. Кабель подходит для студий, сцен и инсталляций. Belden — это американское качество, надёжность и точность в передаче аудиосигнала.",
+      "price": 39.0,
+      "quantity": 18,
+      "category": 5,
+      "sub_category": 19
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 190,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/E72A3EBD5C6C5D3274A8213FE9306064.jpg",
+      "name": "Кабель для акустической системы Gotham GAC SPK Speaker Cable 10m",
+      "weight": 0.65,
+      "length": 35.0,
+      "width": 6.0,
+      "country": "Швейцария",
+      "description": "Gotham GAC SPK — это акустический кабель длиной 10 метров с сечением 2x2.5 мм², предназначенный для подключения усилителей к акустическим системам. Он изготовлен из высококачественной меди, имеет прочную оболочку и устойчив к внешним воздействиям. Кабель обеспечивает чистую передачу сигнала, подходит для студийной и сценической работы. Gotham — это швейцарское качество и надёжность.",
+      "price": 55.0,
+      "quantity": 9,
+      "category": 5,
+      "sub_category": 19
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 191,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/188DBAC29224D01625BB25E5CEE028A4.jpg",
+      "name": "midi-кабель Hosa MID-310BK MIDI Cable 10ft",
+      "weight": 0.18,
+      "length": 25.0,
+      "width": 3.0,
+      "country": "Китай",
+      "description": "Hosa MID-310BK — это классический 5-контактный MIDI-кабель длиной 3 метра, предназначенный для подключения синтезаторов, контроллеров и аудиоинтерфейсов. Он оснащён прочными никелированными разъёмами DIN и экранированной медной жилой, обеспечивающей стабильную передачу сигнала без потерь и помех. Гибкая оболочка устойчива к перегибам, а компактный диаметр делает кабель удобным для прокладки в студии. Отличный выбор для надёжной MIDI-коммуникации.",
+      "price": 14.0,
+      "quantity": 20,
+      "category": 5,
+      "sub_category": 20
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 192,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/188DBAC29224D01625BB25E5CEE028A4.jpg",
+      "name": "midi-кабель Roland RMIDI-B10 Black Series MIDI Cable",
+      "weight": 0.2,
+      "length": 26.0,
+      "width": 3.0,
+      "country": "Китай",
+      "description": "Roland RMIDI-B10 — это высококачественный MIDI-кабель длиной 3 метра из серии Black Series. Он оснащён прочными разъёмами DIN с позолоченными контактами и экранированной медной жилой, обеспечивающей точную передачу MIDI-сигнала. Оболочка из ПВХ устойчива к перегибам и механическим повреждениям. Кабель подходит для студийной и сценической работы, гарантируя стабильность соединения и долговечность.",
+      "price": 19.0,
+      "quantity": 15,
+      "category": 5,
+      "sub_category": 20
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 193,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/C77C05D4F722AE2B5257EEA40E1E2E0A.jpg",
+      "name": "midi-кабель ProCo MIDI-10 MIDI Cable",
+      "weight": 0.22,
+      "length": 27.0,
+      "width": 3.0,
+      "country": "США",
+      "description": "ProCo MIDI-10 — это профессиональный MIDI-кабель длиной 3 метра, изготовленный из бескислородной меди с двойным экранированием. Он оснащён прочными DIN-разъёмами и устойчив к радиопомехам. Кабель обеспечивает надёжную передачу MIDI-команд между устройствами, подходит для студий, сцен и инсталляций. ProCo — это американское качество и стабильность в цифровой коммутации.",
+      "price": 17.0,
+      "quantity": 12,
+      "category": 5,
+      "sub_category": 20
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 194,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/188DBAC29224D01625BB25E5CEE028A4.jpg",
+      "name": "midi-кабель Monoprice MIDI Cable 5ft",
+      "weight": 0.15,
+      "length": 20.0,
+      "width": 3.0,
+      "country": "Китай",
+      "description": "Monoprice MIDI Cable — это доступный 5-контактный кабель длиной 1.5 метра, предназначенный для подключения MIDI-устройств. Он оснащён никелированными разъёмами и экранированной жилой, обеспечивающей стабильную передачу сигнала. Гибкая оболочка устойчива к перегибам, а компактный размер делает его удобным для мобильных сетапов. Отличный выбор для домашней студии и репетиций.",
+      "price": 9.0,
+      "quantity": 25,
+      "category": 5,
+      "sub_category": 20
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 195,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/C9C66D337E5EC122FCD3C7FE54E60261.jpg",
+      "name": "midi-кабель Planet Waves MIDI Cable 10ft",
+      "weight": 0.2,
+      "length": 25.0,
+      "width": 3.0,
+      "country": "США",
+      "description": "Planet Waves MIDI Cable — это кабель длиной 3 метра с прочными DIN-разъёмами и экранированной медной жилой. Он обеспечивает надёжную передачу MIDI-сигнала, устойчив к радиопомехам и механическим повреждениям. Оболочка из ПВХ и усиленные концы делают его удобным для студийной и сценической работы. Planet Waves — это стабильность и качество в цифровой коммутации.",
+      "price": 16.0,
+      "quantity": 18,
+      "category": 5,
+      "sub_category": 20
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 196,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/bmusb200.jpg",
+      "name": "midi-кабель Audio-Technica AT8316 MIDI Cable 16ft",
+      "weight": 0.25,
+      "length": 30.0,
+      "width": 3.0,
+      "country": "Китай",
+      "description": "Audio-Technica AT8316 — это MIDI-кабель длиной 5 метров, предназначенный для подключения синтезаторов, контроллеров и интерфейсов. Он оснащён прочными DIN-разъёмами, экранированной медной жилой и гибкой оболочкой. Кабель обеспечивает стабильную передачу сигнала, устойчив к перегибам и помехам. Отличный выбор для профессиональной и домашней студии.",
+      "price": 21.0,
+      "quantity": 14,
+      "category": 5,
+      "sub_category": 20
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 197,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/C77C05D4F722AE2B5257EEA40E1E2E0A.jpg",
+      "name": "midi-кабель Hosa MID-525 MIDI Cable 25ft",
+      "weight": 0.3,
+      "length": 35.0,
+      "width": 3.0,
+      "country": "Китай",
+      "description": "Hosa MID-525 — это длинный MIDI-кабель длиной 7.5 метра, идеально подходящий для подключения удалённых устройств в студии или на сцене. Он оснащён никелированными DIN-разъёмами, экранированной жилой и прочной оболочкой. Кабель обеспечивает надёжную передачу сигнала без потерь, устойчив к радиопомехам и механическим воздействиям. Hosa — это доступное качество и надёжность.",
+      "price": 19.0,
+      "quantity": 16,
+      "category": 5,
+      "sub_category": 20
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 198,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/C9C66D337E5EC122FCD3C7FE54E60261.jpg",
+      "name": "midi-кабель Livewire Essential MIDI Cable 10ft",
+      "weight": 0.18,
+      "length": 25.0,
+      "width": 3.0,
+      "country": "Китай",
+      "description": "Livewire Essential — это MIDI-кабель длиной 3 метра с прочными DIN-разъёмами и экранированной медной жилой. Он обеспечивает стабильную передачу MIDI-команд, устойчив к помехам и перегибам. Кабель подходит для подключения синтезаторов, контроллеров и интерфейсов, как в студии, так и на сцене. Livewire — это надёжное решение для цифровой коммутации.",
+      "price": 13.0,
+      "quantity": 20,
+      "category": 5,
+      "sub_category": 20
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 199,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/C9C66D337E5EC122FCD3C7FE54E60261.jpg",
+      "name": "midi-кабель Neutrik MIDI Cable 5m",
+      "weight": 0.22,
+      "length": 30.0,
+      "width": 3.0,
+      "country": "Швейцария",
+      "description": "Neutrik MIDI Cable — это профессиональный кабель длиной 5 метров с фирменными DIN-разъёмами Neutrik, обеспечивающими надёжное соединение и долговечность. Кабель изготовлен из бескислородной меди, имеет двойное экранирование и прочную оболочку. Идеален для студийной записи, сценических инсталляций и MIDI-сетапов. Neutrik — это эталон качества в мире коммутации.",
+      "price": 29.0,
+      "quantity": 10,
+      "category": 5,
+      "sub_category": 20
+    }
+  },
+  {
+    "model": "shop.products",
+    "pk": 200,
+    "fields": {
+      "image": "D:/IT/only_python_project/PART 2 (NEW START)/pramenchyck_soneica.by/pramenchyck_soneica/media/products_images/bmusb200.jpg",
+      "name": "midi-кабель RockBoard Flat MIDI Cable 30cm",
+      "weight": 0.1,
+      "length": 15.0,
+      "width": 2.0,
+      "country": "Китай",
+      "description": "RockBoard Flat MIDI Cable — это ультракомпактный кабель длиной 30 см с плоской конструкцией, идеально подходящий для педалбордов и плотных MIDI-сетапов. Он оснащён прочными DIN-разъёмами, экранированной жилой и гибкой оболочкой. Кабель обеспечивает стабильную передачу сигнала, экономит место и упрощает прокладку. Отличный выбор для гитаристов и мобильных музыкантов.",
+      "price": 11.0,
+      "quantity": 22,
+      "category": 5,
+      "sub_category": 20
+    }
+  }
+]

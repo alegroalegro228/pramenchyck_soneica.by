@@ -1,0 +1,166 @@
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 7px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.product-image {
+    max-width: 150px;     /* максимальная ширина */
+    max-height: 150px;    /* максимальная высота */
+    width: auto;
+    height: auto;
+    object-fit: contain;  /* сохраняет пропорции, не обрезает */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.detail-show-image {
+    max-width: 500px;     /* максимальная ширина */
+    max-height: 500px;    /* максимальная высота */
+    width: auto;
+    height: auto;
+    object-fit: contain;  /* сохраняет пропорции, не обрезает */
+    display: block;
+    border: 1px solid Gainsboro;
+    border-radius: 5px;
+}
+
+.card-title a {
+    text-decoration: none;
+}
+
+.card-title {
+    text-decoration: none;
+}
+
+.card-body a {
+    text-decoration: none;
+}
+
+.card-body p {
+    color: black;
+}
+
+.price-block {
+    background: Cornsilk;
+    border-radius: 4px;
+    width: 40%;
+}
+
+.price-block p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button-in-basket-ref {
+    color: white;
+    text-decoration: none;
+}
+
+
+.button-in-basket:hover {
+  text-decoration: none;
+}
+
+.button-in-basket {
+    display: inline-block;
+  padding: 10px 20px;
+  background-color: DarkTurquoise;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1em
+}
+
+.button-in-basket:hover {
+    background-color: Aquamarine;
+}
+
+.button-buy-now {
+    display: inline-block;
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1em
+}
+
+.button-buy-now:hover {
+    background-color: DarkGreen;
+}
+
+
+
+.product-table {
+  width: 100%;
+  max-width: 600px;
+  margin: 40px auto;
+  border-collapse: collapse;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.product-table thead {
+  background-color: Aquamarine;
+}
+
+.product-table th,
+.product-table td {
+  padding: 16px 20px;
+  text-align: left;
+}
+
+.product-table tbody tr:nth-child(even) {
+  background-color: #f4f6f8;
+}
+
+.product-table tbody tr:hover {
+  background-color: #e1eaf2;
+  transition: background-color 0.3s ease;
+}
+
+
+.basket-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+

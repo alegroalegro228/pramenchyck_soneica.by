@@ -1,0 +1,167 @@
+{% extends 'shop/base.html' %}
+{% load static %}
+
+{% block title %}Оформление заказа{% endblock %}
+
+{% block content %}
+
+        <div class="col-lg-5">
+            <h4 class="mt-3 mb-3 d-flex justify-content-between align-items-center mb-3">
+                Оформление заказа <span class="badge badge-secondary badge-pill">3</span>
+            </h4>
+
+            {% if error %}
+                <div>
+                    <h4 style="color: red;">
+                        Произошла ошибка
+                    </h4>
+                </div>
+            {% endif %}
+            {% for basket in baskets %}
+            <div class="card mb-3">
+                <div class="card-body">
+                    <a href="{% url 'shop:detail' basket.product.id %}">
+                        <img class="product-image"
+                                 src="{{ basket.product.image.url }}"
+                                 alt="" id="product-image-id">
+                        <h5 class="card-title">{{ basket.product.name }}</h5>
+                        <p class="card-text">{{ basket.product.description|slice:":50" }}..</p>
+                    </a>
+                </div>
+
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-light">
+                        <div class="row text-center">
+                            <div class="basket-row">
+
+                                <div>
+                                    <a href="{% url 'shop:basket_product_minus' basket.id %}">
+                                        <i class="fa-solid fa-minus"></i>
+                                    </a>
+                                </div>
+                                <div>
+                                            {{ basket.quantity }}
+                                </div>
+                                <div>
+                                    <a href="{% url 'shop:basket_product_plus' basket.id %}">
+                                            <i class="fa-solid fa-plus"></i>
+                                    </a>
+                                </div>
+
+                                <div>
+                                   Сумма: {{ basket.sum }} руб.
+                                </div>
+
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            {% endfor %}
+            <div>
+                <form action="" method="post">
+                {% csrf_token %}
+                    <div>
+                        <label for="{{ form.shipping_to_user.id_for_label }}">Заказ на данные владельца аккаунта</label>
+                        {{ form.shipping_to_user }}
+
+                        <p>(Проставляя данную галочку вы подтверждаете что этот заказ оформляется на данные указанные
+                        в вашем аккаунте, форму ниже в данном случае заполнять не нужно, за исключением данных
+                        о способе оплаты и доставки)</p>
+
+                        {% if error %}
+                            <br>
+
+                            <p style="color: red;" >
+                                {{ error }}
+                            </p>
+                        {% endif %}
+
+                    </div>
+
+                    <input type="hidden" name="product" value="{{ baskets.0.product.id }}">
+
+                    <input type="hidden" name="quantity" value="{{ baskets.0.quantity }}">
+
+                    <input type="hidden" name="user" value="{{ user.id }}">
+
+                    <br>
+                    <div>
+                        {{ form.name_client }}
+                    </div>
+                    <br>
+
+                    <div>
+                        {{ form.region }}
+                    </div>
+                    <br>
+                    <div>
+                        {{ form.district }}
+                    </div>
+                    <br>
+                    <div>
+                        {{ form.city }}
+                    </div>
+                    <br>
+                    <div>
+                        {{ form.street }}
+                    </div>
+                    <br>
+                    <div>
+                        {{ form.house_number }}
+                    </div>
+                    <br>
+                    <div>
+                        {{ form.entrance_number }}
+                    </div>
+                    <br>
+                    <div>
+                        {{ form.flat_number }}
+                    </div>
+                    <br>
+                    <div>
+                        {{ form.post_index }}
+                    </div>
+                    <br>
+                    <div>
+                        {{ form.telephone }}
+                    </div>
+                    <br>
+                    <div>
+                        {{ form.payment_method }}
+                    </div>
+                    <br>
+                    <div>
+                        {{ form.shipping_method }}
+                    </div>
+                    <br>
+                    <div>
+                        {{ form.comment }}
+                    </div>
+                    <br>
+
+                    <input type="hidden" name="amount_money" value="{{ total_sum|add:'0' }}">
+
+                    <div class="card mb-3">
+                        <div class="card-footer">
+                            <p class="float-left">Итого</p>
+                            <h4 class="float-right">{{ total_sum }} руб.</h4>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-success btn-lg float-right" type="submit">
+                        Оформить заказ
+                    </button>
+            </form>
+            </div>
+
+
+
+
+<!--            <a class="btn btn-success btn-lg float-right" href="{% url 'shop:buy_now_page' baskets.0.product.id %}">-->
+<!--                Оформить заказ-->
+<!--            </a>-->
+        </div>
+
+
+{% endblock %}
