@@ -14,3 +14,6 @@ class Users(AbstractUser):
     flat_number = models.IntegerField(verbose_name="Номер квартиры", null=True, blank=True)
     post_index = models.CharField(verbose_name="Почтовый индекс", max_length=10, null=True, blank=True)
 
+
+
+

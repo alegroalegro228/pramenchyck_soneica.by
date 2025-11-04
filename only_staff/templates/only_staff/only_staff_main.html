@@ -1,0 +1,26 @@
+{% extends 'only_staff/administration_base.html' %}
+{% load static %}
+
+{% block title2 %}{{ title }}{% endblock %}
+
+
+{% block content2 %}
+    <h3>{{ title }}</h3>
+    {% if orders %}
+            {% for order in orders %}
+                <div class="order-grid">
+                    <a href="{% url 'only_staff:order_detail' order.order_number %}" class="order-link">
+                        <div class="order-card">
+                              <h5>Заказ #{{ order.order_number }}</h5>
+                              <p>Клиент: <b>{{ order.user.first_name }} {{ order.user.last_name }}</b></p>
+                        </div>
+                    </a>
+                </div>
+            {% endfor %}
+    {% else %}
+        <br>
+        <h5>Ничего не найдено</h5>
+    {% endif %}
+{% endblock %}
+
+

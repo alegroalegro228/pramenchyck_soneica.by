@@ -108,43 +108,39 @@
         <div class="">
           <hr>
           <ul style="border-radius: 5px;" class="tabs" data-tabs="" id="example-tabs" role="tablist" data-e="13a17h-e">
-            <li class="tabs-title is-active" role="presentation"><a href="#panel1" aria-selected="true" role="tab" aria-controls="panel1" id="panel1-label" tabindex="0">Reviews</a></li>
+            <li class="tabs-title is-active" role="presentation"><a href="#" aria-selected="true" role="tab" aria-controls="panel1" id="panel1-label" tabindex="0">Reviews</a></li>
           </ul>
           <div style="border-radius: 5px;" class="tabs-content" data-tabs-content="example-tabs">
             <div class="tabs-panel is-active" id="panel1" role="tabpanel" aria-labelledby="panel1-label">
               <h4>Reviews</h4>
-              <div class="media-object stack-for-small">
-                <div class="media-object-section">
-                  <img class="thumbnail" src="https://placehold.it/200x200">
-                </div>
-                <div class="media-object-section">
-                  <h5>Mike Stevenson</h5>
-                  <p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you.</p>
-                </div>
-              </div>
-              <div class="media-object stack-for-small">
-                <div class="media-object-section">
-                  <img class="thumbnail" src="https://placehold.it/200x200">
-                </div>
-                <div class="media-object-section">
-                  <h5>Mike Stevenson</h5>
-                  <p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you</p>
-                </div>
-              </div>
-              <div class="media-object stack-for-small">
-                <div class="media-object-section">
-                  <img class="thumbnail" src="https://placehold.it/200x200">
-                </div>
-                <div class="media-object-section">
-                  <h5>Mike Stevenson</h5>
-                  <p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you</p>
-                </div>
-              </div>
-              <label>
-                Коментарий
-                <textarea style="border-radius: 5px;" placeholder="None"></textarea>
-              </label>
-              <button class="button">Submit Review</button>
+                {% for comment in comments %}
+                    <div class="media-object stack-for-small">
+                        <div class="media-object-section">
+                          <img style="width: 40px; border-radius: 4px;" src="{{ comment.user.image.url }}">
+                        </div>
+
+                        <div class="media-object-section">
+                          <h5>{{ comment.user.first_name }} {{ comment.user.last_name }}</h5>
+                          <p>{{ comment.text }}</p>
+                        </div>
+
+                        <div class="media-object-section">
+                          <p style="font-size: 10px; color: gray;">{{ comment.date_timestamp }}</p>
+                        </div>
+                        {% if user == comment.user %}
+                            <div class="media-object-section">
+                                <a href="{% url 'shop:comment_delete' comment.id %}"><i class="fas fa-trash"></i></a>
+                            </div>
+                        {% endif %}
+                    </div>
+                <hr>
+                {% endfor %}
+
+              <form action="{% url 'shop:detail' product.id %}" method="post">
+                  {% csrf_token %}
+                    {{ form.text }}
+                  <button type="submit" class="btn btn-success">Отправить</button>
+              </form>
             </div>
 
           </div>

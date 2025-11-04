@@ -89,3 +89,17 @@ class Orders(models.Model):
     created_timestamp = models.DateTimeField(auto_now_add=True)
     status = models.CharField(max_length=10, choices=statuses, default="created", auto_created=True)
     amount_money = models.FloatField(verbose_name="Сумма итого", default=0)
+
+    def __str__(self):
+        return "Заказ #%s" % self.order_number
+
+
+
+
+
+
+class Comments(models.Model):
+    product = models.ForeignKey(to=Products, on_delete=models.CASCADE)
+    user = models.ForeignKey(to=Users, on_delete=models.CASCADE)
+    text = models.TextField()
+    date_timestamp = models.DateTimeField(auto_now_add=True)

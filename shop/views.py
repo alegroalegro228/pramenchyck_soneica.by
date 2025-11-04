@@ -1,8 +1,9 @@
 from django.shortcuts import render, get_object_or_404, HttpResponseRedirect
-from .models import Categories, SubCategory, Products, Basket, Orders
+from .models import Categories, SubCategory, Products, Basket, Orders, Comments
 from django.contrib.auth.decorators import login_required
-from .forms import CreateOrderForm, CreateOrderForm2
+from .forms import CreateOrderForm, CreateOrderForm2, CommentForm
 from user.models import Users
+from django.apps import apps
 import pprint
 import random
 from datetime import datetime
@@ -212,8 +213,19 @@ def products(request):
 
 def detail(request, product_id):
     product = get_object_or_404(Products, id=product_id)
+    if request.method == "POST":
+        form_data = request.POST.copy()
+        form_data["product"] = product
+        form_data["user"] = request.user
+        form = CommentForm(data=form_data)
+        if form.is_valid():
+            form.save()
+
+    comments = Comments.objects.filter(product=product)
     context = {
-        'product': product
+        'product': product,
+        'comments': comments,
+        'form': CommentForm()
     }
     return render(request, template_name="shop/detail.html", context=context)
 
@@ -412,3 +424,17 @@ def midi_cables_catalog(request):
     products = Products.objects.filter(sub_category=sub_category)
     context = {'title': 'Midi-кабеля', 'products': products}
     return render(request, 'shop/main.html', context)
+
+
+def comment_delete(request, comment_id):
+    comment = Comments.objects.get(id=comment_id)
+    comment.delete()
+    return HttpResponseRedirect(request.META["HTTP_REFERER"])
+
+
+def my_orders(request):
+    context = {
+        'orders': Orders.objects.filter(user=request.user)
+    }
+    return render(request, template_name='shop/my_orders.html', context=context)
+

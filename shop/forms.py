@@ -1,5 +1,5 @@
 from django import forms
-from .models import Orders
+from .models import Orders, Comments
 
 
 class CreateOrderForm(forms.ModelForm):
@@ -147,3 +147,34 @@ class CreateOrderForm2(forms.ModelForm):
                   "house_number",
                   "entrance_number", "flat_number", "post_index", "telephone", "payment_method",
                   "shipping_method", "comment", "amount_money")
+
+
+class CommentForm(forms.ModelForm):
+
+    text = forms.CharField(widget=forms.Textarea(attrs={
+        "class": "form-control",
+        "placeholder": "Ваш комментарий"
+    }))
+
+    class Meta:
+        model = Comments
+        fields = ("product", "user", "text")
+
+
+class ChangeOrderStatusForm(forms.ModelForm):
+    statuses = [
+        ("created", "Создан"),
+        ("in_work", "В работе"),
+        ("completed", "Завершен"),
+        ("canceled", "Отменен"),
+    ]
+
+    status = forms.ChoiceField(choices=statuses, widget=forms.Select(attrs={
+        "class": "form-control",
+    }))
+
+    class Meta:
+        model = Orders
+        fields = ("status",)
+
+

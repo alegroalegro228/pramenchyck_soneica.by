@@ -43,4 +43,8 @@ urlpatterns = [
     path('catalog/microphone-cables/', views.microphone_cables_catalog, name='microphone_cables_catalog'),
     path('catalog/speaker-cables/', views.speaker_cables_catalog, name='speaker_cables_catalog'),
     path('catalog/midi-cables/', views.midi_cables_catalog, name='midi_cables_catalog'),
+
+    path('detail/comment-delete/<int:comment_id>', views.comment_delete, name='comment_delete'),
+
+    path('my-orders/', views.my_orders, name='my_orders')
 ]

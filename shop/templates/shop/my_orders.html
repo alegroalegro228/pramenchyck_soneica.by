@@ -1,0 +1,52 @@
+{% extends 'shop/base.html' %}
+{% load static %}
+
+{% block title %}Мои заказы{% endblock %}
+
+{% block content %}
+    {% if orders %}
+        <div class="col-lg-5">
+            <h4 class="mt-3 mb-3 d-flex justify-content-between align-items-center mb-3">
+                Мои покупки<span class="badge badge-secondary badge-pill">3</span>
+            </h4>
+            {% for order in orders %}
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <a href="{% url 'shop:detail' order.product.id %}">
+                            <img class="product-image"
+                                     src="{{ order.product.image.url }}"
+                                     alt="" id="product-image-id">
+                            <h5 class="card-title">{{ order.product.name }}</h5>
+                            <h5>{{ order.product.price }} руб.</h5>
+                            <p class="card-text">{{ order.product.description|slice:":50" }}..</p>
+                        </a>
+                    </div>
+
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-light">
+                            <div class="row text-center">
+                                <div class="basket-row">
+                                    <div>
+                                        <a href="{% url 'shop:basket_add' order.product.id %}" class="btn btn-outline-success">
+                                            Отправить в корзину
+                                        </a>
+                                    </div>
+
+                                    <div>
+                                        <a class="btn btn-success" href="{% url 'shop:buy_now_page' order.product.id %}">Купить сейчас</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            {% endfor %}
+        </div>
+    {% else %}
+        <h4 class="mt-3 mb-3 d-flex justify-content-between align-items-center mb-3">
+            У вас пока нет покупок <span class="badge badge-secondary badge-pill">3</span>
+        </h4>
+    {% endif %}
+
+
+{% endblock %}

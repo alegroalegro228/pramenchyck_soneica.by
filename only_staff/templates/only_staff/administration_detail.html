@@ -1,0 +1,112 @@
+{% extends 'only_staff/administration_base.html' %}
+{% load static %}
+
+{% block title2 %}{{ title }}{% endblock %}
+
+
+{% block content2 %}
+    <h3>Заказ #{{ orders.0.order_number }}</h3>
+
+    <h5>Товары в заказе</h5>
+    {% for order in orders %}
+        <div class="product-card">
+            <img src="{{ order.product.image.url }}" alt="Фото товара" class="product-image-order">
+                <div class="product-info">
+                  <div class="product-name">{{ order.product.name }}</div>
+                    <div class="product-details">
+                      <span class="product-price">{{ order.product.price }} BYN</span>
+                      <span class="product-quantity">× {{ order.quantity }} шт.</span>
+                    </div>
+                </div>
+        </div>
+    {% endfor %}
+
+
+    <div class="order-table">
+        <table>
+            <tbody>
+              <tr>
+                <td>Заказчик, имя, фамилия, никнейм</td>
+                <td>{{ orders.0.user.first_name }} {{ orders.0.user.last_name }} (@{{ orders.0.user.username }})</td>
+              </tr>
+              {% if orders.0.shipping_to_user %}
+                    <tr>
+                        <td>Получатель имя фамилия</td>
+                        <td>{{ orders.0.user.first_name }} {{ orders.0.user.last_name }}</td>
+                    </tr>
+                    <tr>
+                        <td>Адрес доставки</td>
+                        <td>{{ orders.0.user.region }} область, {{ orders.0.user.district }} район,
+                            г. {{ orders.0.user.city }}, ул. {{ orders.0.user.street }}, д. {{ orders.0.user.house_number }}
+                            {% if orders.0.user.entrance_number %}
+                                Подъезд {{ orders.0.user.entrance_number }}, кв. {{ orders.0.user.flat_number }}, Индекс {{ orders.0.user.post_index }}
+                            {% endif %}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Телефон получателя</td>
+                        <td>{{ orders.0.user.telephone }}</td>
+                    </tr>
+              {% else %}
+                    <tr>
+                        <td>Получатель имя фамилия</td>
+                        <td>{{ orders.0.name_client }}</td>
+                    </tr>
+                    <tr>
+                        <td>Адрес доставки</td>
+                        <td>
+                            {{ orders.0.region }} область, {{ orders.0.district }} район,
+                            г. {{ orders.0.city }}, ул. {{ orders.0.street }}, д. {{ orders.0.house_number }}
+                            {% if orders.0.entrance_number %}
+                                Подъезд {{ orders.0.entrance_number }}, кв. {{ orders.0.flat_number }}, Индекс {{ orders.0.post_index }}
+                            {% endif %}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Телефон получателя</td>
+                        <td>{{ orders.0.telephone }}</td>
+                    </tr>
+              {% endif %}
+
+              <tr>
+                <td>Метод оплаты</td>
+                <td>{{ orders.0.payment_method }}</td>
+              </tr>
+              <tr>
+                <td>Способ доставки</td>
+                <td>{{ orders.0.shipping_method }}</td>
+              </tr>
+              <tr>
+                <td>Комментарий к заказу</td>
+                <td>{{ orders.0.comment }}</td>
+              </tr>
+              <tr>
+                <td>Время создания заказа</td>
+                <td>{{ orders.0.created_timestamp }}</td>
+              </tr>
+              <tr>
+                <td>Общая сумма заказа</td>
+                <td>{{ total_sum }} BYN</td>
+              </tr>
+              <tr>
+                <td>Статус заказа</td>
+                <td>{{ orders.0.status }}</td>
+              </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div>
+      <form action="{% url 'only_staff:order_detail' orders.0.order_number %}" method="post">
+          {% csrf_token %}
+          <label for="{{ form.status.id_for_label }}">Статус заказа</label>
+          {{ form.status }}
+          <input type="hidden" name="order_number" value="{{ orders.0.order_number }}">
+          <br>
+          <button type="submit" class="btn btn-success">Изменить статус заказа</button>
+      </form>
+    </div>
+
+{% endblock %}
+
+
