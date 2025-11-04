@@ -30,12 +30,12 @@
                                     <img class="product-image" src="{{ ord.product.image.url }}" alt="">
                                     <p>Товар: {{ ord.product.name }}</p>
                                     <p>Колличество: {{ ord.quantity }}</p>
-                                    <p>Цена: {{ ord.amount_money }}</p>
+                                    <p>Цена: {{ ord.amount_money }} BYN</p>
                                 </div>
                             <hr>
                             {% endfor %}
                             <div class="card-body text-center">
-                                    <p>Общая стоимость: {{ general_price }}</p>
+                                    <p>Общая стоимость: {{ general_price }} BYN</p>
                                 </div>
                         </div>
                     </div>

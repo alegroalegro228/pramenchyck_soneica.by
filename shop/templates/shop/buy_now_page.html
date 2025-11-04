@@ -62,8 +62,11 @@
                 <form action="" method="post">
                 {% csrf_token %}
                     <div>
-                        <label for="{{ form.shipping_to_user.id_for_label }}">Заказ на данные владельца аккаунта</label>
-                        {{ form.shipping_to_user }}
+                        <label for="toggleCheckbox">Заказ на данные владельца аккаунта
+                        <input type="checkbox" id="toggleCheckbox" name="shipping_to_user">
+                        </label>
+
+                        <br>
 
                         <p>(Проставляя данную галочку вы подтверждаете что этот заказ оформляется на данные указанные
                         в вашем аккаунте, форму ниже в данном случае заполнять не нужно, за исключением данных
@@ -86,47 +89,52 @@
                     <input type="hidden" name="user" value="{{ user.id }}">
 
                     <br>
-                    <div>
-                        {{ form.name_client }}
-                    </div>
-                    <br>
 
-                    <div>
-                        {{ form.region }}
+                    <div id="targetBlock">
+                        <div>
+                            {{ form.name_client }}
+                        </div>
+                        <br>
+
+                        <div>
+                            {{ form.region }}
+                        </div>
+                        <br>
+                        <div>
+                            {{ form.district }}
+                        </div>
+                        <br>
+                        <div>
+                            {{ form.city }}
+                        </div>
+                        <br>
+                        <div>
+                            {{ form.street }}
+                        </div>
+                        <br>
+                        <div>
+                            {{ form.house_number }}
+                        </div>
+                        <br>
+                        <div>
+                            {{ form.entrance_number }}
+                        </div>
+                        <br>
+                        <div>
+                            {{ form.flat_number }}
+                        </div>
+                        <br>
+                        <div>
+                            {{ form.post_index }}
+                        </div>
+                        <br>
+                        <div>
+                            {{ form.telephone }}
+                        </div>
+                        <br>
+
                     </div>
-                    <br>
-                    <div>
-                        {{ form.district }}
-                    </div>
-                    <br>
-                    <div>
-                        {{ form.city }}
-                    </div>
-                    <br>
-                    <div>
-                        {{ form.street }}
-                    </div>
-                    <br>
-                    <div>
-                        {{ form.house_number }}
-                    </div>
-                    <br>
-                    <div>
-                        {{ form.entrance_number }}
-                    </div>
-                    <br>
-                    <div>
-                        {{ form.flat_number }}
-                    </div>
-                    <br>
-                    <div>
-                        {{ form.post_index }}
-                    </div>
-                    <br>
-                    <div>
-                        {{ form.telephone }}
-                    </div>
-                    <br>
+
                     <div>
                         {{ form.payment_method }}
                     </div>
@@ -154,14 +162,16 @@
                     </button>
             </form>
             </div>
-
-
-
-
-<!--            <a class="btn btn-success btn-lg float-right" href="{% url 'shop:buy_now_page' baskets.0.product.id %}">-->
-<!--                Оформить заказ-->
-<!--            </a>-->
         </div>
 
+
+<script>
+  const checkbox = document.getElementById('toggleCheckbox');
+  const block = document.getElementById('targetBlock');
+
+  checkbox.addEventListener('change', function () {
+    block.style.display = this.checked ? 'none' : 'block';
+  });
+</script>
 
 {% endblock %}
